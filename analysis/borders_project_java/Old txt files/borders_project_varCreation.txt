@@ -1,0 +1,43 @@
+gen lngt84_nbr = ln(gt84_nbr)
+gen lngt84_sub = ln(gt84_sub)
+gen lngt84difference = lngt84_sub - lngt84_nbr
+gen gt84_aginc_backward = gt84_aginc_lag_sub - gt84_aginc_lag_nbr
+label var gt84_aginc_backward"sub-nbr"
+gen gt84_aginc_predict = gt84_aginc_lead_sub - gt84_aginc_lead_nbr
+label var gt84_aginc_predict"sub-nbr"
+gen gt84_avwage_backward = gt84_avwage_lag_sub - gt84_avwage_lag_nbr
+label var gt84_avwage_backward"sub-nbr"
+gen gt84_avwage_predict = gt84_avwage_lead_sub - gt84_avwage_lead_nbr
+label var gt84_avwage_predict"sub-nbr"
+gen gt84_nfincome_backward = gt84_nfincome_lag_sub - gt84_nfincome_lag_nbr
+label var gt84_nfincome_backward"sub-nbr"
+gen gt84_nfincome_predict = gt84_nfincome_lead_sub - gt84_nfincome_lead_nbr
+label var gt84_nfincome_predict"sub-nbr"
+gen gt84_nfpropnum_backward = gt84_nfpropnum_lag_sub - gt84_nfpropnum_lag_nbr
+label var gt84_nfpropnum_backward"sub-nbr"
+gen gt84_nfpropnum_predict = gt84_nfpropnum_lead_sub - gt84_nfpropnum_lead_nbr
+label var gt84_nfpropnum_predict"sub-nbr"
+gen gt84_nfpropincome_backward = gt84_nfpropincome_lag_sub - gt84_nfpropincome_lag_nbr
+label var gt84_nfpropincome_backward"sub-nbr"
+gen gt84_nfpropincome_predict = gt84_nfpropincome_lead_sub - gt84_nfpropincome_lead_nbr
+label var gt84_nfpropincome_predict"sub-nbr"
+gen gt84_output_backward = gt84_output_lag_sub - gt84_output_lag_nbr
+label var gt84_output_backward"sub-nbr"
+gen gt84_output_predict = gt84_output_lead_sub - gt84_output_lead_nbr
+label var gt84_output_predict"sub-nbr"
+gen gt84_percapinc_backward = gt84_percapinc_lag_sub - gt84_percapinc_lag_nbr
+label var gt84_percapinc_backward"sub-nbr"
+gen gt84_percapinc_predict = gt84_percapinc_lead_sub - gt84_percapinc_lead_nbr
+label var gt84_percapinc_predict"sub-nbr"
+gen gt84_pop_backward = gt84_pop_lag_sub - gt84_pop_lag_nbr
+label var gt84_pop_backward"sub-nbr"
+gen gt84_pop_predict = gt84_pop_lead_sub - gt84_pop_lead_nbr
+label var gt84_pop_predict"sub-nbr"
+gen gt84_wagebill_backward = gt84_wagebill_lag_sub - gt84_wagebill_lag_nbr
+label var gt84_wagebill_backward"sub-nbr"
+gen gt84_wagebill_predict = gt84_wagebill_lead_sub - gt84_wagebill_lead_nbr
+label var gt84_wagebill_predict"sub-nbr"
+gen gt84_wageemp_backward = gt84_wageemp_lag_sub - gt84_wageemp_lag_nbr
+label var gt84_wageemp_backward"sub-nbr"
+gen gt84_wageemp_predict = gt84_wageemp_lead_sub - gt84_wageemp_lead_nbr
+label var gt84_wageemp_predict"sub-nbr"

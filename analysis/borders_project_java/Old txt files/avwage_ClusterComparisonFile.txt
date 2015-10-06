@@ -1,0 +1,84 @@
+gt80_avwage_ba~d |      Coef.   Std. Err.      t    P>|t|     [95% Conf. Interval
+lngt80difference |  -.0247102    .027528    -0.90   0.371    -.0792872    .029866
+gt80_avwage_pr~t |      Coef.   Std. Err.      t    P>|t|     [95% Conf. Interval
+lngt80difference |    .016153   .0264511     0.61   0.543    -.0362888    .068594
+gt81_avwage_ba~d |      Coef.   Std. Err.      t    P>|t|     [95% Conf. Interval
+lngt81difference |  -.0055153   .0102745    -0.54   0.593    -.0258856     .01485
+gt81_avwage_pr~t |      Coef.   Std. Err.      t    P>|t|     [95% Conf. Interval
+lngt81difference |   .0003013   .0083605     0.04   0.971    -.0162743    .016876
+gt82_avwage_ba~d |      Coef.   Std. Err.      t    P>|t|     [95% Conf. Interval
+lngt82difference |  -.0173211   .0149209    -1.16   0.248    -.0469033    .012261
+gt82_avwage_pr~t |      Coef.   Std. Err.      t    P>|t|     [95% Conf. Interval
+lngt82difference |    .027004   .0108066     2.50   0.014      .005579    .048429
+gt83_avwage_ba~d |      Coef.   Std. Err.      t    P>|t|     [95% Conf. Interval
+lngt83difference |  -.0222778   .0123777    -1.80   0.075    -.0468178    .002262
+gt83_avwage_pr~t |      Coef.   Std. Err.      t    P>|t|     [95% Conf. Interval
+lngt83difference |   .0207431   .0096137     2.16   0.033     .0016831    .039803
+gt84_avwage_ba~d |      Coef.   Std. Err.      t    P>|t|     [95% Conf. Interval
+lngt84difference |   -.013846   .0086218    -1.61   0.111    -.0309396    .003247
+gt84_avwage_pr~t |      Coef.   Std. Err.      t    P>|t|     [95% Conf. Interval
+lngt84difference |   .0136785   .0088591     1.54   0.126    -.0038856    .031242
+gt85_avwage_ba~d |      Coef.   Std. Err.      t    P>|t|     [95% Conf. Interval
+lngt85difference |   .0057912   .0065363     0.89   0.378    -.0071677    .018750
+gt85_avwage_pr~t |      Coef.   Std. Err.      t    P>|t|     [95% Conf. Interval
+lngt85difference |   .0153351   .0094956     1.61   0.109    -.0034908    .034161
+gt86_avwage_ba~d |      Coef.   Std. Err.      t    P>|t|     [95% Conf. Interval
+lngt86difference |   .0015373    .009383     0.16   0.870    -.0170655      .0201
+gt86_avwage_pr~t |      Coef.   Std. Err.      t    P>|t|     [95% Conf. Interval
+lngt86difference |   .0262624   .0093937     2.80   0.006     .0076386    .044886
+ft75_avwage_ba~d |      Coef.   Std. Err.      t    P>|t|     [95% Conf. Interval
+lnft75difference |  -.0063037    .005257    -1.20   0.233    -.0167262    .004118
+ft75_avwage_pr~t |      Coef.   Std. Err.      t    P>|t|     [95% Conf. Interval
+lnft75difference |   -.004845   .0043846    -1.11   0.272    -.0135378    .003847
+sb00_avwage_ba~d |      Coef.   Std. Err.      t    P>|t|     [95% Conf. Interval
+lnsb00difference |  -.0217218   .0138725    -1.57   0.120    -.0492254    .005781
+sb00_avwage_pr~t |      Coef.   Std. Err.      t    P>|t|     [95% Conf. Interval
+lnsb00difference |   .0184739   .0189777     0.97   0.333    -.0191513    .056099
+sb01_avwage_ba~d |      Coef.   Std. Err.      t    P>|t|     [95% Conf. Interval
+lnsb01difference |   .0228893   .0202418     1.13   0.261    -.0172422    .063020
+sb01_avwage_pr~t |      Coef.   Std. Err.      t    P>|t|     [95% Conf. Interval
+lnsb01difference |  -.0038072   .0172418    -0.22   0.826    -.0379908    .030376
+sb02_avwage_ba~d |      Coef.   Std. Err.      t    P>|t|     [95% Conf. Interval
+lnsb02difference |   .0225355   .0172879     1.30   0.195    -.0117394    .056810
+sb02_avwage_pr~t |      Coef.   Std. Err.      t    P>|t|     [95% Conf. Interval
+lnsb02difference |   .0017939   .0148388     0.12   0.904    -.0276254    .031213
+sb03_avwage_ba~d |      Coef.   Std. Err.      t    P>|t|     [95% Conf. Interval
+lnsb03difference |   .0276507    .015978     1.73   0.086    -.0040272    .059328
+sb03_avwage_pr~t |      Coef.   Std. Err.      t    P>|t|     [95% Conf. Interval
+lnsb03difference |   .0074624   .0148943     0.50   0.617     -.022067    .036991
+sb04_avwage_ba~d |      Coef.   Std. Err.      t    P>|t|     [95% Conf. Interval
+lnsb04difference |   .0340632    .018588     1.83   0.070    -.0027894    .070915
+sb04_avwage_pr~t |      Coef.   Std. Err.      t    P>|t|     [95% Conf. Interval
+lnsb04difference |   .0315883   .0179179     1.76   0.081    -.0039356    .067112
+ne99_avwage_ba~d |      Coef.   Std. Err.      t    P>|t|     [95% Conf. Interval
+lnne99difference |   .0039405   .0097112     0.41   0.686    -.0153128    .023193
+ne99_avwage_pr~t |      Coef.   Std. Err.      t    P>|t|     [95% Conf. Interval
+lnne99difference |   .0057597   .0104688     0.55   0.583    -.0149957    .026515
+ne02_avwage_ba~d |      Coef.   Std. Err.      t    P>|t|     [95% Conf. Interval
+lnne02difference |   .0100553   .0190479     0.53   0.599     -.027709    .047819
+ne02_avwage_pr~t |      Coef.   Std. Err.      t    P>|t|     [95% Conf. Interval
+lnne02difference |  -.0181627   .0175702    -1.03   0.304    -.0529974    .016671
+bh01_avwage_ba~d |      Coef.   Std. Err.      t    P>|t|     [95% Conf. Interval
+lnbh01difference |   .0477907    .016597     2.88   0.005     .0148855     .08069
+bh01_avwage_pr~t |      Coef.   Std. Err.      t    P>|t|     [95% Conf. Interval
+lnbh01difference |   -.012862   .0166146    -0.77   0.441    -.0458021     .02007
+bh02_avwage_ba~d |      Coef.   Std. Err.      t    P>|t|     [95% Conf. Interval
+lnbh02difference |   .0134955   .0174216     0.77   0.440    -.0210445    .048035
+bh02_avwage_pr~t |      Coef.   Std. Err.      t    P>|t|     [95% Conf. Interval
+lnbh02difference |  -.0019647   .0162525    -0.12   0.904     -.034187    .030257
+bh03_avwage_ba~d |      Coef.   Std. Err.      t    P>|t|     [95% Conf. Interval
+lnbh03difference |   .0099967   .0165205     0.61   0.546    -.0227567    .042750
+bh03_avwage_pr~t |      Coef.   Std. Err.      t    P>|t|     [95% Conf. Interval
+lnbh03difference |  -.0063226   .0181803    -0.35   0.729    -.0423669    .029721
+bh04_avwage_ba~d |      Coef.   Std. Err.      t    P>|t|     [95% Conf. Interval
+lnbh04difference |   .0156241   .0179035     0.87   0.385    -.0198712    .051119
+bh04_avwage_pr~t |      Coef.   Std. Err.      t    P>|t|     [95% Conf. Interval
+lnbh04difference |  -.0049981   .0155558    -0.32   0.749     -.035839    .025842
+frng04_avwage_ba~d |      Coef.   Std. Err.      t    P>|t|     [95% Conf. Interv
+lnfrng04difference |   .0219454   .0193821     1.13   0.260    -.0164814    .0603
+frng04_avwage_pr~t |      Coef.   Std. Err.      t    P>|t|     [95% Conf. Interv
+lnfrng04difference |   .0284704    .019286     1.48   0.143    -.0097659    .0667
+frsg04_avwage_ba~d |      Coef.   Std. Err.      t    P>|t|     [95% Conf. Interv
+lnfrsg04difference |   .0237333   .0200773     1.18   0.240    -.0160719    .0635
+frsg04_avwage_pr~t |      Coef.   Std. Err.      t    P>|t|     [95% Conf. Interv
+lnfrsg04difference |   .0403908   .0224197     1.80   0.074    -.0040584    .0848

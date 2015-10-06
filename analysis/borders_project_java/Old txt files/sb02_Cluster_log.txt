@@ -1,0 +1,515 @@
+---------------------------------------------------------------------------------
+      name:  <unnamed>
+       log:  R:\users\borders_project\New_stata_files\Log_Files\sb02Clusterregres
+> sions.smcl
+  log type:  smcl
+ opened on:  22 Jul 2013, 14:12:14
+
+. 
+. reg sb02_aginc_backward lnsb02difference, vce(cluster stpr_id)
+
+Linear regression                                      Number of obs =    1222
+                                                       F(  1,   106) =    1.74
+                                                       Prob > F      =  0.1906
+                                                       R-squared     =  0.0059
+                                                       Root MSE      =  .16805
+
+                                  (Std. Err. adjusted for 107 clusters in stpr_id
+> )
+---------------------------------------------------------------------------------
+> -
+                 |               Robust
+sb02_aginc_bac~d |      Coef.   Std. Err.      t    P>|t|     [95% Conf. Interval
+> ]
+-----------------+---------------------------------------------------------------
+> -
+lnsb02difference |   .0428358   .0325182     1.32   0.191    -.0216346    .107306
+> 1
+           _cons |  -.0154945    .008788    -1.76   0.081    -.0329176    .001928
+> 5
+---------------------------------------------------------------------------------
+> -
+
+. 
+. reg sb02_aginc_predict lnsb02difference, vce(cluster stpr_id) 
+
+Linear regression                                      Number of obs =    1222
+                                                       F(  1,   106) =    0.38
+                                                       Prob > F      =  0.5392
+                                                       R-squared     =  0.0008
+                                                       Root MSE      =  .13869
+
+                                  (Std. Err. adjusted for 107 clusters in stpr_id
+> )
+---------------------------------------------------------------------------------
+> -
+                 |               Robust
+sb02_aginc_pre~t |      Coef.   Std. Err.      t    P>|t|     [95% Conf. Interval
+> ]
+-----------------+---------------------------------------------------------------
+> -
+lnsb02difference |  -.0131968   .0214249    -0.62   0.539    -.0556737    .029280
+> 2
+           _cons |   .0012166   .0076047     0.16   0.873    -.0138604    .016293
+> 6
+---------------------------------------------------------------------------------
+> -
+
+. 
+. reg sb02_avwage_backward lnsb02difference, vce(cluster stpr_id)
+
+Linear regression                                      Number of obs =    1222
+                                                       F(  1,   106) =    1.70
+                                                       Prob > F      =  0.1952
+                                                       R-squared     =  0.0063
+                                                       Root MSE      =  .08554
+
+                                  (Std. Err. adjusted for 107 clusters in stpr_id
+> )
+---------------------------------------------------------------------------------
+> -
+                 |               Robust
+sb02_avwage_ba~d |      Coef.   Std. Err.      t    P>|t|     [95% Conf. Interval
+> ]
+-----------------+---------------------------------------------------------------
+> -
+lnsb02difference |   .0225355   .0172879     1.30   0.195    -.0117394    .056810
+> 4
+           _cons |   .0002845     .00424     0.07   0.947    -.0081218    .008690
+> 7
+---------------------------------------------------------------------------------
+> -
+
+. 
+. reg sb02_avwage_predict lnsb02difference, vce(cluster stpr_id) 
+
+Linear regression                                      Number of obs =    1222
+                                                       F(  1,   106) =    0.01
+                                                       Prob > F      =  0.9040
+                                                       R-squared     =  0.0001
+                                                       Root MSE      =  .07599
+
+                                  (Std. Err. adjusted for 107 clusters in stpr_id
+> )
+---------------------------------------------------------------------------------
+> -
+                 |               Robust
+sb02_avwage_pr~t |      Coef.   Std. Err.      t    P>|t|     [95% Conf. Interval
+> ]
+-----------------+---------------------------------------------------------------
+> -
+lnsb02difference |   .0017939   .0148388     0.12   0.904    -.0276254    .031213
+> 2
+           _cons |  -.0064872   .0035887    -1.81   0.073    -.0136022    .000627
+> 7
+---------------------------------------------------------------------------------
+> -
+
+. 
+. reg sb02_nfincome_backward lnsb02difference, vce(cluster stpr_id)
+
+Linear regression                                      Number of obs =    1222
+                                                       F(  1,   106) =    0.01
+                                                       Prob > F      =  0.9093
+                                                       R-squared     =  0.0001
+                                                       Root MSE      =  .09199
+
+                                  (Std. Err. adjusted for 107 clusters in stpr_id
+> )
+---------------------------------------------------------------------------------
+> -
+                 |               Robust
+sb02_nfincome_~d |      Coef.   Std. Err.      t    P>|t|     [95% Conf. Interval
+> ]
+-----------------+---------------------------------------------------------------
+> -
+lnsb02difference |  -.0025778   .0225638    -0.11   0.909    -.0473128    .042157
+> 2
+           _cons |  -.0117787   .0052225    -2.26   0.026    -.0221327   -.001424
+> 6
+---------------------------------------------------------------------------------
+> -
+
+. 
+. reg sb02_nfincome_predict lnsb02difference, vce(cluster stpr_id) 
+
+Linear regression                                      Number of obs =    1222
+                                                       F(  1,   106) =   17.46
+                                                       Prob > F      =  0.0001
+                                                       R-squared     =  0.0534
+                                                       Root MSE      =  .09134
+
+                                  (Std. Err. adjusted for 107 clusters in stpr_id
+> )
+---------------------------------------------------------------------------------
+> -
+                 |               Robust
+sb02_nfincome_~t |      Coef.   Std. Err.      t    P>|t|     [95% Conf. Interval
+> ]
+-----------------+---------------------------------------------------------------
+> -
+lnsb02difference |  -.0715315   .0171193    -4.18   0.000    -.1054722   -.037590
+> 7
+           _cons |   .0019506   .0050055     0.39   0.698    -.0079734    .011874
+> 6
+---------------------------------------------------------------------------------
+> -
+
+. 
+. reg sb02_nfpropnum_backward lnsb02difference, vce(cluster stpr_id)
+
+Linear regression                                      Number of obs =    1222
+                                                       F(  1,   106) =    0.01
+                                                       Prob > F      =  0.9066
+                                                       R-squared     =  0.0000
+                                                       Root MSE      =  .37223
+
+                                  (Std. Err. adjusted for 107 clusters in stpr_id
+> )
+---------------------------------------------------------------------------------
+> -
+                 |               Robust
+sb02_nfpropnum~d |      Coef.   Std. Err.      t    P>|t|     [95% Conf. Interval
+> ]
+-----------------+---------------------------------------------------------------
+> -
+lnsb02difference |    .004742   .0403153     0.12   0.907     -.075187    .084670
+> 9
+           _cons |  -.0050772   .0122101    -0.42   0.678     -.029285    .019130
+> 6
+---------------------------------------------------------------------------------
+> -
+
+. 
+. reg sb02_nfpropnum_predict lnsb02difference, vce(cluster stpr_id) 
+
+Linear regression                                      Number of obs =    1222
+                                                       F(  1,   106) =    8.11
+                                                       Prob > F      =  0.0053
+                                                       R-squared     =  0.0277
+                                                       Root MSE      =  .09689
+
+                                  (Std. Err. adjusted for 107 clusters in stpr_id
+> )
+---------------------------------------------------------------------------------
+> -
+                 |               Robust
+sb02_nfpropnum~t |      Coef.   Std. Err.      t    P>|t|     [95% Conf. Interval
+> ]
+-----------------+---------------------------------------------------------------
+> -
+lnsb02difference |  -.0539367   .0189405    -2.85   0.005    -.0914882   -.016385
+> 3
+           _cons |  -.0008899    .006638    -0.13   0.894    -.0140504    .012270
+> 6
+---------------------------------------------------------------------------------
+> -
+
+. 
+. reg sb02_nfpropincome_backward lnsb02difference, vce(cluster stpr_id)
+
+Linear regression                                      Number of obs =    1222
+                                                       F(  1,   106) =    0.37
+                                                       Prob > F      =  0.5427
+                                                       R-squared     =  0.0008
+                                                       Root MSE      =  .45337
+
+                                  (Std. Err. adjusted for 107 clusters in stpr_id
+> )
+---------------------------------------------------------------------------------
+> -
+                 |               Robust
+sb02_nfpropinc~d |      Coef.   Std. Err.      t    P>|t|     [95% Conf. Interval
+> ]
+-----------------+---------------------------------------------------------------
+> -
+lnsb02difference |   .0422961   .0692514     0.61   0.543    -.0950016    .179593
+> 7
+           _cons |  -.0420709   .0225429    -1.87   0.065    -.0867644    .002622
+> 6
+---------------------------------------------------------------------------------
+> -
+
+. 
+. reg sb02_nfpropincome_predict lnsb02difference, vce(cluster stpr_id) 
+
+Linear regression                                      Number of obs =    1222
+                                                       F(  1,   106) =   15.85
+                                                       Prob > F      =  0.0001
+                                                       R-squared     =  0.0448
+                                                       Root MSE      =  .15687
+
+                                  (Std. Err. adjusted for 107 clusters in stpr_id
+> )
+---------------------------------------------------------------------------------
+> -
+                 |               Robust
+sb02_nfpropinc~t |      Coef.   Std. Err.      t    P>|t|     [95% Conf. Interval
+> ]
+-----------------+---------------------------------------------------------------
+> -
+lnsb02difference |  -.1120035   .0281311    -3.98   0.000    -.1677761   -.056230
+> 8
+           _cons |   .0212775   .0101664     2.09   0.039     .0011217    .041433
+> 3
+---------------------------------------------------------------------------------
+> -
+
+. 
+. reg sb02_output_backward lnsb02difference, vce(cluster stpr_id)
+
+Linear regression                                      Number of obs =    1222
+                                                       F(  1,   106) =    2.14
+                                                       Prob > F      =  0.1468
+                                                       R-squared     =  0.0079
+                                                       Root MSE      =  .10404
+
+                                  (Std. Err. adjusted for 107 clusters in stpr_id
+> )
+---------------------------------------------------------------------------------
+> -
+                 |               Robust
+sb02_output_ba~d |      Coef.   Std. Err.      t    P>|t|     [95% Conf. Interval
+> ]
+-----------------+---------------------------------------------------------------
+> -
+lnsb02difference |   .0306653   .0209786     1.46   0.147    -.0109268    .072257
+> 4
+           _cons |  -.0096786   .0050721    -1.91   0.059    -.0197346    .000377
+> 4
+---------------------------------------------------------------------------------
+> -
+
+. 
+. reg sb02_output_predict lnsb02difference, vce(cluster stpr_id) 
+
+Linear regression                                      Number of obs =    1222
+                                                       F(  1,   106) =    0.85
+                                                       Prob > F      =  0.3573
+                                                       R-squared     =  0.0028
+                                                       Root MSE      =  .07705
+
+                                  (Std. Err. adjusted for 107 clusters in stpr_id
+> )
+---------------------------------------------------------------------------------
+> -
+                 |               Robust
+sb02_output_pr~t |      Coef.   Std. Err.      t    P>|t|     [95% Conf. Interval
+> ]
+-----------------+---------------------------------------------------------------
+> -
+lnsb02difference |  -.0134964   .0145967    -0.92   0.357    -.0424358     .01544
+> 3
+           _cons |   .0001811   .0040432     0.04   0.964     -.007835    .008197
+> 1
+---------------------------------------------------------------------------------
+> -
+
+. 
+. reg sb02_percapinc_backward lnsb02difference, vce(cluster stpr_id)
+
+Linear regression                                      Number of obs =    1222
+                                                       F(  1,   106) =    3.05
+                                                       Prob > F      =  0.0835
+                                                       R-squared     =  0.0090
+                                                       Root MSE      =  .08792
+
+                                  (Std. Err. adjusted for 107 clusters in stpr_id
+> )
+---------------------------------------------------------------------------------
+> -
+                 |               Robust
+sb02_percapinc~d |      Coef.   Std. Err.      t    P>|t|     [95% Conf. Interval
+> ]
+-----------------+---------------------------------------------------------------
+> -
+lnsb02difference |   .0275495   .0157678     1.75   0.083    -.0037117    .058810
+> 7
+           _cons |  -.0075624   .0042433    -1.78   0.078    -.0159753    .000850
+> 4
+---------------------------------------------------------------------------------
+> -
+
+. 
+. reg sb02_percapinc_predict lnsb02difference, vce(cluster stpr_id) 
+
+Linear regression                                      Number of obs =    1222
+                                                       F(  1,   106) =    0.32
+                                                       Prob > F      =  0.5746
+                                                       R-squared     =  0.0006
+                                                       Root MSE      =  .09272
+
+                                  (Std. Err. adjusted for 107 clusters in stpr_id
+> )
+---------------------------------------------------------------------------------
+> -
+                 |               Robust
+sb02_percapinc~t |      Coef.   Std. Err.      t    P>|t|     [95% Conf. Interval
+> ]
+-----------------+---------------------------------------------------------------
+> -
+lnsb02difference |   -.007698   .0136733    -0.56   0.575    -.0348066    .019410
+> 6
+           _cons |   .0053614   .0048004     1.12   0.267    -.0041559    .014878
+> 7
+---------------------------------------------------------------------------------
+> -
+
+. 
+. reg sb02_pop_backward lnsb02difference, vce(cluster stpr_id)
+
+Linear regression                                      Number of obs =    1222
+                                                       F(  1,   106) =    1.72
+                                                       Prob > F      =  0.1926
+                                                       R-squared     =  0.0065
+                                                       Root MSE      =  .07078
+
+                                  (Std. Err. adjusted for 107 clusters in stpr_id
+> )
+---------------------------------------------------------------------------------
+> -
+                 |               Robust
+sb02_pop_backw~d |      Coef.   Std. Err.      t    P>|t|     [95% Conf. Interval
+> ]
+-----------------+---------------------------------------------------------------
+> -
+lnsb02difference |  -.0188319   .0143599    -1.31   0.193    -.0473018    .009638
+> 1
+           _cons |  -.0047242   .0040318    -1.17   0.244    -.0127176    .003269
+> 1
+---------------------------------------------------------------------------------
+> -
+
+. 
+. reg sb02_pop_predict lnsb02difference, vce(cluster stpr_id) 
+
+Linear regression                                      Number of obs =    1222
+                                                       F(  1,   106) =   22.73
+                                                       Prob > F      =  0.0000
+                                                       R-squared     =  0.0365
+                                                       Root MSE      =  .06856
+
+                                  (Std. Err. adjusted for 107 clusters in stpr_id
+> )
+---------------------------------------------------------------------------------
+> -
+                 |               Robust
+sb02_pop_predict |      Coef.   Std. Err.      t    P>|t|     [95% Conf. Interval
+> ]
+-----------------+---------------------------------------------------------------
+> -
+lnsb02difference |  -.0439601   .0092198    -4.77   0.000    -.0622393   -.025680
+> 9
+           _cons |  -.0019444   .0027808    -0.70   0.486    -.0074576    .003568
+> 8
+---------------------------------------------------------------------------------
+> -
+
+. 
+. reg sb02_wagebill_backward lnsb02difference, vce(cluster stpr_id)
+
+Linear regression                                      Number of obs =    1222
+                                                       F(  1,   106) =    0.01
+                                                       Prob > F      =  0.9317
+                                                       R-squared     =  0.0000
+                                                       Root MSE      =  .17616
+
+                                  (Std. Err. adjusted for 107 clusters in stpr_id
+> )
+---------------------------------------------------------------------------------
+> -
+                 |               Robust
+sb02_wagebill_~d |      Coef.   Std. Err.      t    P>|t|     [95% Conf. Interval
+> ]
+-----------------+---------------------------------------------------------------
+> -
+lnsb02difference |   .0031253   .0364038     0.09   0.932    -.0690489    .075299
+> 4
+           _cons |   -.001647   .0097323    -0.17   0.866    -.0209423    .017648
+> 2
+---------------------------------------------------------------------------------
+> -
+
+. 
+. reg sb02_wagebill_predict lnsb02difference, vce(cluster stpr_id) 
+
+Linear regression                                      Number of obs =    1222
+                                                       F(  1,   106) =    4.84
+                                                       Prob > F      =  0.0299
+                                                       R-squared     =  0.0108
+                                                       Root MSE      =  .18016
+
+                                  (Std. Err. adjusted for 107 clusters in stpr_id
+> )
+---------------------------------------------------------------------------------
+> -
+                 |               Robust
+sb02_wagebill_~t |      Coef.   Std. Err.      t    P>|t|     [95% Conf. Interval
+> ]
+-----------------+---------------------------------------------------------------
+> -
+lnsb02difference |  -.0619468   .0281512    -2.20   0.030    -.1177593   -.006134
+> 4
+           _cons |   .0024339   .0096816     0.25   0.802    -.0167608    .021628
+> 6
+---------------------------------------------------------------------------------
+> -
+
+. 
+. reg sb02_wageemp_backward lnsb02difference, vce(cluster stpr_id)
+
+Linear regression                                      Number of obs =    1222
+                                                       F(  1,   106) =    0.01
+                                                       Prob > F      =  0.9102
+                                                       R-squared     =  0.0000
+                                                       Root MSE      =  .14186
+
+                                  (Std. Err. adjusted for 107 clusters in stpr_id
+> )
+---------------------------------------------------------------------------------
+> -
+                 |               Robust
+sb02_wageemp_b~d |      Coef.   Std. Err.      t    P>|t|     [95% Conf. Interval
+> ]
+-----------------+---------------------------------------------------------------
+> -
+lnsb02difference |  -.0030707   .0271695    -0.11   0.910    -.0569368    .050795
+> 4
+           _cons |  -.0043648   .0075292    -0.58   0.563    -.0192922    .010562
+> 7
+---------------------------------------------------------------------------------
+> -
+
+. 
+. reg sb02_wageemp_predict lnsb02difference, vce(cluster stpr_id) 
+
+Linear regression                                      Number of obs =    1222
+                                                       F(  1,   106) =    3.20
+                                                       Prob > F      =  0.0764
+                                                       R-squared     =  0.0067
+                                                       Root MSE      =  .14795
+
+                                  (Std. Err. adjusted for 107 clusters in stpr_id
+> )
+---------------------------------------------------------------------------------
+> -
+                 |               Robust
+sb02_wageemp_p~t |      Coef.   Std. Err.      t    P>|t|     [95% Conf. Interval
+> ]
+-----------------+---------------------------------------------------------------
+> -
+lnsb02difference |  -.0400501   .0223778    -1.79   0.076    -.0844162     .00431
+> 6
+           _cons |   .0012226    .007896     0.15   0.877    -.0144319    .016877
+> 1
+---------------------------------------------------------------------------------
+> -
+
+. 
+. log close
+      name:  <unnamed>
+       log:  R:\users\borders_project\New_stata_files\Log_Files\sb02Clusterregres
+> sions.smcl
+  log type:  smcl
+ closed on:  22 Jul 2013, 14:12:15
+---------------------------------------------------------------------------------

@@ -1,0 +1,515 @@
+---------------------------------------------------------------------------------
+      name:  <unnamed>
+       log:  R:\users\borders_project\New_stata_files\Log_Files\gt85Clusterregres
+> sions.smcl
+  log type:  smcl
+ opened on:  22 Jul 2013, 14:10:36
+
+. 
+. reg gt85_aginc_backward lngt85difference, vce(cluster stpr_id)
+
+Linear regression                                      Number of obs =    1217
+                                                       F(  1,   106) =    4.27
+                                                       Prob > F      =  0.0412
+                                                       R-squared     =  0.0157
+                                                       Root MSE      =  .24586
+
+                                  (Std. Err. adjusted for 107 clusters in stpr_id
+> )
+---------------------------------------------------------------------------------
+> -
+                 |               Robust
+gt85_aginc_bac~d |      Coef.   Std. Err.      t    P>|t|     [95% Conf. Interval
+> ]
+-----------------+---------------------------------------------------------------
+> -
+lngt85difference |   .0657722   .0318261     2.07   0.041     .0026738    .128870
+> 5
+           _cons |  -.0226042   .0135414    -1.67   0.098    -.0494514    .004242
+> 9
+---------------------------------------------------------------------------------
+> -
+
+. 
+. reg gt85_aginc_predict lngt85difference, vce(cluster stpr_id) 
+
+Linear regression                                      Number of obs =    1222
+                                                       F(  1,   106) =    0.75
+                                                       Prob > F      =  0.3873
+                                                       R-squared     =  0.0018
+                                                       Root MSE      =  .18177
+
+                                  (Std. Err. adjusted for 107 clusters in stpr_id
+> )
+---------------------------------------------------------------------------------
+> -
+                 |               Robust
+gt85_aginc_pre~t |      Coef.   Std. Err.      t    P>|t|     [95% Conf. Interval
+> ]
+-----------------+---------------------------------------------------------------
+> -
+lngt85difference |   .0163653   .0188504     0.87   0.387    -.0210074    .053738
+> 1
+           _cons |   .0088896   .0101317     0.88   0.382    -.0111975    .028976
+> 7
+---------------------------------------------------------------------------------
+> -
+
+. 
+. reg gt85_avwage_backward lngt85difference, vce(cluster stpr_id)
+
+Linear regression                                      Number of obs =    1218
+                                                       F(  1,   106) =    0.79
+                                                       Prob > F      =  0.3776
+                                                       R-squared     =  0.0007
+                                                       Root MSE      =  .10103
+
+                                  (Std. Err. adjusted for 107 clusters in stpr_id
+> )
+---------------------------------------------------------------------------------
+> -
+                 |               Robust
+gt85_avwage_ba~d |      Coef.   Std. Err.      t    P>|t|     [95% Conf. Interval
+> ]
+-----------------+---------------------------------------------------------------
+> -
+lngt85difference |   .0057912   .0065363     0.89   0.378    -.0071677    .018750
+> 1
+           _cons |  -.0022741   .0043947    -0.52   0.606    -.0109871    .006438
+> 8
+---------------------------------------------------------------------------------
+> -
+
+. 
+. reg gt85_avwage_predict lngt85difference, vce(cluster stpr_id) 
+
+Linear regression                                      Number of obs =    1222
+                                                       F(  1,   106) =    2.61
+                                                       Prob > F      =  0.1093
+                                                       R-squared     =  0.0063
+                                                       Root MSE      =    .091
+
+                                  (Std. Err. adjusted for 107 clusters in stpr_id
+> )
+---------------------------------------------------------------------------------
+> -
+                 |               Robust
+gt85_avwage_pr~t |      Coef.   Std. Err.      t    P>|t|     [95% Conf. Interval
+> ]
+-----------------+---------------------------------------------------------------
+> -
+lngt85difference |   .0153351   .0094956     1.61   0.109    -.0034908    .034161
+> 1
+           _cons |   .0086413   .0040716     2.12   0.036     .0005689    .016713
+> 7
+---------------------------------------------------------------------------------
+> -
+
+. 
+. reg gt85_nfincome_backward lngt85difference, vce(cluster stpr_id)
+
+Linear regression                                      Number of obs =    1218
+                                                       F(  1,   106) =    0.59
+                                                       Prob > F      =  0.4429
+                                                       R-squared     =  0.0020
+                                                       Root MSE      =  .11593
+
+                                  (Std. Err. adjusted for 107 clusters in stpr_id
+> )
+---------------------------------------------------------------------------------
+> -
+                 |               Robust
+gt85_nfincome_~d |      Coef.   Std. Err.      t    P>|t|     [95% Conf. Interval
+> ]
+-----------------+---------------------------------------------------------------
+> -
+lngt85difference |   .0110295   .0143197     0.77   0.443    -.0173607    .039419
+> 7
+           _cons |  -.0041545   .0058472    -0.71   0.479    -.0157471    .007438
+> 1
+---------------------------------------------------------------------------------
+> -
+
+. 
+. reg gt85_nfincome_predict lngt85difference, vce(cluster stpr_id) 
+
+Linear regression                                      Number of obs =    1222
+                                                       F(  1,   106) =    8.18
+                                                       Prob > F      =  0.0051
+                                                       R-squared     =  0.0214
+                                                       Root MSE      =  .12024
+
+                                  (Std. Err. adjusted for 107 clusters in stpr_id
+> )
+---------------------------------------------------------------------------------
+> -
+                 |               Robust
+gt85_nfincome_~t |      Coef.   Std. Err.      t    P>|t|     [95% Conf. Interval
+> ]
+-----------------+---------------------------------------------------------------
+> -
+lngt85difference |   .0375168   .0131169     2.86   0.005     .0115114    .063522
+> 3
+           _cons |  -.0007824   .0066597    -0.12   0.907    -.0139859     .01242
+> 1
+---------------------------------------------------------------------------------
+> -
+
+. 
+. reg gt85_nfpropnum_backward lngt85difference, vce(cluster stpr_id)
+
+Linear regression                                      Number of obs =    1218
+                                                       F(  1,   106) =    9.86
+                                                       Prob > F      =  0.0022
+                                                       R-squared     =  0.0281
+                                                       Root MSE      =  .19496
+
+                                  (Std. Err. adjusted for 107 clusters in stpr_id
+> )
+---------------------------------------------------------------------------------
+> -
+                 |               Robust
+gt85_nfpropnum~d |      Coef.   Std. Err.      t    P>|t|     [95% Conf. Interval
+> ]
+-----------------+---------------------------------------------------------------
+> -
+lngt85difference |   .0699288   .0222684     3.14   0.002     .0257796     .11407
+> 8
+           _cons |  -.0051069   .0103537    -0.49   0.623    -.0256341    .015420
+> 3
+---------------------------------------------------------------------------------
+> -
+
+. 
+. reg gt85_nfpropnum_predict lngt85difference, vce(cluster stpr_id) 
+
+Linear regression                                      Number of obs =    1222
+                                                       F(  1,   106) =    0.04
+                                                       Prob > F      =  0.8327
+                                                       R-squared     =  0.0001
+                                                       Root MSE      =  .19073
+
+                                  (Std. Err. adjusted for 107 clusters in stpr_id
+> )
+---------------------------------------------------------------------------------
+> -
+                 |               Robust
+gt85_nfpropnum~t |      Coef.   Std. Err.      t    P>|t|     [95% Conf. Interval
+> ]
+-----------------+---------------------------------------------------------------
+> -
+lngt85difference |   .0043794   .0206833     0.21   0.833    -.0366272     .04538
+> 6
+           _cons |  -.0221832   .0108992    -2.04   0.044    -.0437919   -.000574
+> 5
+---------------------------------------------------------------------------------
+> -
+
+. 
+. reg gt85_nfpropincome_backward lngt85difference, vce(cluster stpr_id)
+
+Linear regression                                      Number of obs =    1218
+                                                       F(  1,   106) =    0.10
+                                                       Prob > F      =  0.7496
+                                                       R-squared     =  0.0005
+                                                       Root MSE      =  .21686
+
+                                  (Std. Err. adjusted for 107 clusters in stpr_id
+> )
+---------------------------------------------------------------------------------
+> -
+                 |               Robust
+gt85_nfpropinc~d |      Coef.   Std. Err.      t    P>|t|     [95% Conf. Interval
+> ]
+-----------------+---------------------------------------------------------------
+> -
+lngt85difference |  -.0102795   .0321173    -0.32   0.750    -.0739552    .053396
+> 3
+           _cons |   .0159286   .0129056     1.23   0.220     -.009658    .041515
+> 1
+---------------------------------------------------------------------------------
+> -
+
+. 
+. reg gt85_nfpropincome_predict lngt85difference, vce(cluster stpr_id) 
+
+Linear regression                                      Number of obs =    1222
+                                                       F(  1,   106) =    0.43
+                                                       Prob > F      =  0.5122
+                                                       R-squared     =  0.0010
+                                                       Root MSE      =  .27428
+
+                                  (Std. Err. adjusted for 107 clusters in stpr_id
+> )
+---------------------------------------------------------------------------------
+> -
+                 |               Robust
+gt85_nfpropinc~t |      Coef.   Std. Err.      t    P>|t|     [95% Conf. Interval
+> ]
+-----------------+---------------------------------------------------------------
+> -
+lngt85difference |  -.0181157   .0275438    -0.66   0.512    -.0727239    .036492
+> 5
+           _cons |  -.0289536   .0160643    -1.80   0.074    -.0608026    .002895
+> 5
+---------------------------------------------------------------------------------
+> -
+
+. 
+. reg gt85_output_backward lngt85difference, vce(cluster stpr_id)
+
+Linear regression                                      Number of obs =    1218
+                                                       F(  1,   106) =    0.97
+                                                       Prob > F      =  0.3280
+                                                       R-squared     =  0.0014
+                                                       Root MSE      =  .10028
+
+                                  (Std. Err. adjusted for 107 clusters in stpr_id
+> )
+---------------------------------------------------------------------------------
+> -
+                 |               Robust
+gt85_output_ba~d |      Coef.   Std. Err.      t    P>|t|     [95% Conf. Interval
+> ]
+-----------------+---------------------------------------------------------------
+> -
+lngt85difference |  -.0077931   .0079308    -0.98   0.328    -.0235167    .007930
+> 5
+           _cons |  -.0025811   .0043126    -0.60   0.551    -.0111312    .005968
+> 9
+---------------------------------------------------------------------------------
+> -
+
+. 
+. reg gt85_output_predict lngt85difference, vce(cluster stpr_id) 
+
+Linear regression                                      Number of obs =    1222
+                                                       F(  1,   106) =    2.56
+                                                       Prob > F      =  0.1124
+                                                       R-squared     =  0.0041
+                                                       Root MSE      =  .10495
+
+                                  (Std. Err. adjusted for 107 clusters in stpr_id
+> )
+---------------------------------------------------------------------------------
+> -
+                 |               Robust
+gt85_output_pr~t |      Coef.   Std. Err.      t    P>|t|     [95% Conf. Interval
+> ]
+-----------------+---------------------------------------------------------------
+> -
+lngt85difference |   .0142645    .008912     1.60   0.112    -.0034044    .031933
+> 5
+           _cons |   .0079404    .004775     1.66   0.099    -.0015265    .017407
+> 3
+---------------------------------------------------------------------------------
+> -
+
+. 
+. reg gt85_percapinc_backward lngt85difference, vce(cluster stpr_id)
+
+Linear regression                                      Number of obs =    1218
+                                                       F(  1,   106) =    2.64
+                                                       Prob > F      =  0.1068
+                                                       R-squared     =  0.0085
+                                                       Root MSE      =   .1428
+
+                                  (Std. Err. adjusted for 107 clusters in stpr_id
+> )
+---------------------------------------------------------------------------------
+> -
+                 |               Robust
+gt85_percapinc~d |      Coef.   Std. Err.      t    P>|t|     [95% Conf. Interval
+> ]
+-----------------+---------------------------------------------------------------
+> -
+lngt85difference |   .0279612   .0171927     1.63   0.107    -.0061251    .062047
+> 4
+           _cons |  -.0040683   .0080068    -0.51   0.612    -.0199425    .011805
+> 9
+---------------------------------------------------------------------------------
+> -
+
+. 
+. reg gt85_percapinc_predict lngt85difference, vce(cluster stpr_id) 
+
+Linear regression                                      Number of obs =    1222
+                                                       F(  1,   106) =    0.13
+                                                       Prob > F      =  0.7195
+                                                       R-squared     =  0.0003
+                                                       Root MSE      =  .10176
+
+                                  (Std. Err. adjusted for 107 clusters in stpr_id
+> )
+---------------------------------------------------------------------------------
+> -
+                 |               Robust
+gt85_percapinc~t |      Coef.   Std. Err.      t    P>|t|     [95% Conf. Interval
+> ]
+-----------------+---------------------------------------------------------------
+> -
+lngt85difference |  -.0037046     .01029    -0.36   0.720    -.0241055    .016696
+> 4
+           _cons |   .0040453   .0054977     0.74   0.463    -.0068545     .01494
+> 5
+---------------------------------------------------------------------------------
+> -
+
+. 
+. reg gt85_pop_backward lngt85difference, vce(cluster stpr_id)
+
+Linear regression                                      Number of obs =    1218
+                                                       F(  1,   106) =    1.43
+                                                       Prob > F      =  0.2351
+                                                       R-squared     =  0.0034
+                                                       Root MSE      =  .07386
+
+                                  (Std. Err. adjusted for 107 clusters in stpr_id
+> )
+---------------------------------------------------------------------------------
+> -
+                 |               Robust
+gt85_pop_backw~d |      Coef.   Std. Err.      t    P>|t|     [95% Conf. Interval
+> ]
+-----------------+---------------------------------------------------------------
+> -
+lngt85difference |   .0090594   .0075863     1.19   0.235    -.0059812       .024
+> 1
+           _cons |  -.0094203   .0038424    -2.45   0.016    -.0170383   -.001802
+> 3
+---------------------------------------------------------------------------------
+> -
+
+. 
+. reg gt85_pop_predict lngt85difference, vce(cluster stpr_id) 
+
+Linear regression                                      Number of obs =    1222
+                                                       F(  1,   106) =   12.36
+                                                       Prob > F      =  0.0006
+                                                       R-squared     =  0.0323
+                                                       Root MSE      =  .08432
+
+                                  (Std. Err. adjusted for 107 clusters in stpr_id
+> )
+---------------------------------------------------------------------------------
+> -
+                 |               Robust
+gt85_pop_predict |      Coef.   Std. Err.      t    P>|t|     [95% Conf. Interval
+> ]
+-----------------+---------------------------------------------------------------
+> -
+lngt85difference |   .0325094   .0092455     3.52   0.001     .0141793    .050839
+> 5
+           _cons |  -.0015332   .0042532    -0.36   0.719    -.0099656    .006899
+> 1
+---------------------------------------------------------------------------------
+> -
+
+. 
+. reg gt85_wagebill_backward lngt85difference, vce(cluster stpr_id)
+
+Linear regression                                      Number of obs =    1219
+                                                       F(  1,   106) =    0.23
+                                                       Prob > F      =  0.6321
+                                                       R-squared     =  0.0005
+                                                       Root MSE      =  .25408
+
+                                  (Std. Err. adjusted for 107 clusters in stpr_id
+> )
+---------------------------------------------------------------------------------
+> -
+                 |               Robust
+gt85_wagebill_~d |      Coef.   Std. Err.      t    P>|t|     [95% Conf. Interval
+> ]
+-----------------+---------------------------------------------------------------
+> -
+lngt85difference |   .0125122   .0260545     0.48   0.632    -.0391435    .064167
+> 9
+           _cons |  -.0083098   .0136634    -0.61   0.544    -.0353988    .018779
+> 2
+---------------------------------------------------------------------------------
+> -
+
+. 
+. reg gt85_wagebill_predict lngt85difference, vce(cluster stpr_id) 
+
+Linear regression                                      Number of obs =    1222
+                                                       F(  1,   106) =    2.61
+                                                       Prob > F      =  0.1091
+                                                       R-squared     =  0.0152
+                                                       Root MSE      =  .23928
+
+                                  (Std. Err. adjusted for 107 clusters in stpr_id
+> )
+---------------------------------------------------------------------------------
+> -
+                 |               Robust
+gt85_wagebill_~t |      Coef.   Std. Err.      t    P>|t|     [95% Conf. Interval
+> ]
+-----------------+---------------------------------------------------------------
+> -
+lngt85difference |   .0627558   .0388335     1.62   0.109    -.0142353    .139746
+> 9
+           _cons |   .0028879   .0133208     0.22   0.829    -.0235218    .029297
+> 6
+---------------------------------------------------------------------------------
+> -
+
+. 
+. reg gt85_wageemp_backward lngt85difference, vce(cluster stpr_id)
+
+Linear regression                                      Number of obs =    1219
+                                                       F(  1,   106) =    0.00
+                                                       Prob > F      =  0.9916
+                                                       R-squared     =  0.0000
+                                                       Root MSE      =  .18239
+
+                                  (Std. Err. adjusted for 107 clusters in stpr_id
+> )
+---------------------------------------------------------------------------------
+> -
+                 |               Robust
+gt85_wageemp_b~d |      Coef.   Std. Err.      t    P>|t|     [95% Conf. Interval
+> ]
+-----------------+---------------------------------------------------------------
+> -
+lngt85difference |   .0001972   .0186262     0.01   0.992    -.0367311    .037125
+> 5
+           _cons |   -.000418   .0095562    -0.04   0.965    -.0193642    .018528
+> 1
+---------------------------------------------------------------------------------
+> -
+
+. 
+. reg gt85_wageemp_predict lngt85difference, vce(cluster stpr_id) 
+
+Linear regression                                      Number of obs =    1222
+                                                       F(  1,   106) =    3.21
+                                                       Prob > F      =  0.0762
+                                                       R-squared     =  0.0182
+                                                       Root MSE      =  .17605
+
+                                  (Std. Err. adjusted for 107 clusters in stpr_id
+> )
+---------------------------------------------------------------------------------
+> -
+                 |               Robust
+gt85_wageemp_p~t |      Coef.   Std. Err.      t    P>|t|     [95% Conf. Interval
+> ]
+-----------------+---------------------------------------------------------------
+> -
+lngt85difference |   .0505964   .0282545     1.79   0.076    -.0054208    .106613
+> 6
+           _cons |   .0042496   .0102516     0.41   0.679    -.0160752    .024574
+> 4
+---------------------------------------------------------------------------------
+> -
+
+. 
+. log close
+      name:  <unnamed>
+       log:  R:\users\borders_project\New_stata_files\Log_Files\gt85Clusterregres
+> sions.smcl
+  log type:  smcl
+ closed on:  22 Jul 2013, 14:10:37
+---------------------------------------------------------------------------------
