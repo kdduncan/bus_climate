@@ -1,0 +1,515 @@
+---------------------------------------------------------------------------------
+      name:  <unnamed>
+       log:  R:\users\borders_project\New_stata_files\Log_Files\ft75Clusterregres
+> sions.smcl
+  log type:  smcl
+ opened on:  22 Jul 2013, 14:11:18
+
+. 
+. reg ft75_aginc_backward lnft75difference, vce(cluster stpr_id)
+
+Linear regression                                      Number of obs =    1218
+                                                       F(  1,   106) =    3.77
+                                                       Prob > F      =  0.0548
+                                                       R-squared     =  0.0193
+                                                       Root MSE      =  .20701
+
+                                  (Std. Err. adjusted for 107 clusters in stpr_id
+> )
+---------------------------------------------------------------------------------
+> -
+                 |               Robust
+ft75_aginc_bac~d |      Coef.   Std. Err.      t    P>|t|     [95% Conf. Interval
+> ]
+-----------------+---------------------------------------------------------------
+> -
+lnft75difference |  -.0250638   .0129082    -1.94   0.055    -.0506555     .00052
+> 8
+           _cons |  -.0024765   .0101183    -0.24   0.807    -.0225371    .017584
+> 1
+---------------------------------------------------------------------------------
+> -
+
+. 
+. reg ft75_aginc_predict lnft75difference, vce(cluster stpr_id) 
+
+Linear regression                                      Number of obs =    1217
+                                                       F(  1,   106) =    1.28
+                                                       Prob > F      =  0.2603
+                                                       R-squared     =  0.0047
+                                                       Root MSE      =  .25213
+
+                                  (Std. Err. adjusted for 107 clusters in stpr_id
+> )
+---------------------------------------------------------------------------------
+> -
+                 |               Robust
+ft75_aginc_pre~t |      Coef.   Std. Err.      t    P>|t|     [95% Conf. Interval
+> ]
+-----------------+---------------------------------------------------------------
+> -
+lnft75difference |   .0149929   .0132469     1.13   0.260    -.0112704    .041256
+> 3
+           _cons |  -.0096596   .0131366    -0.74   0.464    -.0357042    .016384
+> 9
+---------------------------------------------------------------------------------
+> -
+
+. 
+. reg ft75_avwage_backward lnft75difference, vce(cluster stpr_id)
+
+Linear regression                                      Number of obs =    1218
+                                                       F(  1,   106) =    1.44
+                                                       Prob > F      =  0.2332
+                                                       R-squared     =  0.0048
+                                                       Root MSE      =  .10504
+
+                                  (Std. Err. adjusted for 107 clusters in stpr_id
+> )
+---------------------------------------------------------------------------------
+> -
+                 |               Robust
+ft75_avwage_ba~d |      Coef.   Std. Err.      t    P>|t|     [95% Conf. Interval
+> ]
+-----------------+---------------------------------------------------------------
+> -
+lnft75difference |  -.0063037    .005257    -1.20   0.233    -.0167262    .004118
+> 8
+           _cons |   .0053221   .0051363     1.04   0.302    -.0048611    .015505
+> 3
+---------------------------------------------------------------------------------
+> -
+
+. 
+. reg ft75_avwage_predict lnft75difference, vce(cluster stpr_id) 
+
+Linear regression                                      Number of obs =    1218
+                                                       F(  1,   106) =    1.22
+                                                       Prob > F      =  0.2717
+                                                       R-squared     =  0.0033
+                                                       Root MSE      =    .097
+
+                                  (Std. Err. adjusted for 107 clusters in stpr_id
+> )
+---------------------------------------------------------------------------------
+> -
+                 |               Robust
+ft75_avwage_pr~t |      Coef.   Std. Err.      t    P>|t|     [95% Conf. Interval
+> ]
+-----------------+---------------------------------------------------------------
+> -
+lnft75difference |   -.004845   .0043846    -1.11   0.272    -.0135378    .003847
+> 9
+           _cons |  -.0117947   .0044214    -2.67   0.009    -.0205604   -.003028
+> 9
+---------------------------------------------------------------------------------
+> -
+
+. 
+. reg ft75_nfincome_backward lnft75difference, vce(cluster stpr_id)
+
+Linear regression                                      Number of obs =    1218
+                                                       F(  1,   106) =    3.58
+                                                       Prob > F      =  0.0611
+                                                       R-squared     =  0.0098
+                                                       Root MSE      =  .11945
+
+                                  (Std. Err. adjusted for 107 clusters in stpr_id
+> )
+---------------------------------------------------------------------------------
+> -
+                 |               Robust
+ft75_nfincome_~d |      Coef.   Std. Err.      t    P>|t|     [95% Conf. Interval
+> ]
+-----------------+---------------------------------------------------------------
+> -
+lnft75difference |  -.0102304   .0054057    -1.89   0.061    -.0209476    .000486
+> 9
+           _cons |   .0031117   .0057043     0.55   0.587    -.0081977    .014421
+> 1
+---------------------------------------------------------------------------------
+> -
+
+. 
+. reg ft75_nfincome_predict lnft75difference, vce(cluster stpr_id) 
+
+Linear regression                                      Number of obs =    1218
+                                                       F(  1,   106) =    0.50
+                                                       Prob > F      =  0.4807
+                                                       R-squared     =  0.0014
+                                                       Root MSE      =  .11697
+
+                                  (Std. Err. adjusted for 107 clusters in stpr_id
+> )
+---------------------------------------------------------------------------------
+> -
+                 |               Robust
+ft75_nfincome_~t |      Coef.   Std. Err.      t    P>|t|     [95% Conf. Interval
+> ]
+-----------------+---------------------------------------------------------------
+> -
+lnft75difference |  -.0038111   .0053854    -0.71   0.481    -.0144882    .006865
+> 9
+           _cons |  -.0133458   .0059782    -2.23   0.028    -.0251982   -.001493
+> 3
+---------------------------------------------------------------------------------
+> -
+
+. 
+. reg ft75_nfpropnum_backward lnft75difference, vce(cluster stpr_id)
+
+Linear regression                                      Number of obs =    1218
+                                                       F(  1,   106) =    0.20
+                                                       Prob > F      =  0.6558
+                                                       R-squared     =  0.0004
+                                                       Root MSE      =  .18721
+
+                                  (Std. Err. adjusted for 107 clusters in stpr_id
+> )
+---------------------------------------------------------------------------------
+> -
+                 |               Robust
+ft75_nfpropnum~d |      Coef.   Std. Err.      t    P>|t|     [95% Conf. Interval
+> ]
+-----------------+---------------------------------------------------------------
+> -
+lnft75difference |   .0031838   .0071227     0.45   0.656    -.0109376    .017305
+> 3
+           _cons |  -.0050998   .0095294    -0.54   0.594    -.0239928    .013793
+> 3
+---------------------------------------------------------------------------------
+> -
+
+. 
+. reg ft75_nfpropnum_predict lnft75difference, vce(cluster stpr_id) 
+
+Linear regression                                      Number of obs =    1218
+                                                       F(  1,   106) =    0.01
+                                                       Prob > F      =  0.9217
+                                                       R-squared     =  0.0000
+                                                       Root MSE      =  .15285
+
+                                  (Std. Err. adjusted for 107 clusters in stpr_id
+> )
+---------------------------------------------------------------------------------
+> -
+                 |               Robust
+ft75_nfpropnum~t |      Coef.   Std. Err.      t    P>|t|     [95% Conf. Interval
+> ]
+-----------------+---------------------------------------------------------------
+> -
+lnft75difference |  -.0007503   .0076194    -0.10   0.922    -.0158564    .014355
+> 8
+           _cons |  -.0192366   .0066683    -2.88   0.005    -.0324572   -.006016
+> 1
+---------------------------------------------------------------------------------
+> -
+
+. 
+. reg ft75_nfpropincome_backward lnft75difference, vce(cluster stpr_id)
+
+Linear regression                                      Number of obs =    1218
+                                                       F(  1,   106) =    1.09
+                                                       Prob > F      =  0.2978
+                                                       R-squared     =  0.0029
+                                                       Root MSE      =  .16244
+
+                                  (Std. Err. adjusted for 107 clusters in stpr_id
+> )
+---------------------------------------------------------------------------------
+> -
+                 |               Robust
+ft75_nfpropinc~d |      Coef.   Std. Err.      t    P>|t|     [95% Conf. Interval
+> ]
+-----------------+---------------------------------------------------------------
+> -
+lnft75difference |  -.0075132   .0071812    -1.05   0.298    -.0217507    .006724
+> 4
+           _cons |  -.0170296   .0112904    -1.51   0.134    -.0394139    .005354
+> 7
+---------------------------------------------------------------------------------
+> -
+
+. 
+. reg ft75_nfpropincome_predict lnft75difference, vce(cluster stpr_id) 
+
+Linear regression                                      Number of obs =    1218
+                                                       F(  1,   106) =    0.05
+                                                       Prob > F      =  0.8243
+                                                       R-squared     =  0.0003
+                                                       Root MSE      =  .16729
+
+                                  (Std. Err. adjusted for 107 clusters in stpr_id
+> )
+---------------------------------------------------------------------------------
+> -
+                 |               Robust
+ft75_nfpropinc~t |      Coef.   Std. Err.      t    P>|t|     [95% Conf. Interval
+> ]
+-----------------+---------------------------------------------------------------
+> -
+lnft75difference |  -.0024079     .01082    -0.22   0.824    -.0238597    .019043
+> 8
+           _cons |  -.0084877   .0097228    -0.87   0.385    -.0277641    .010788
+> 6
+---------------------------------------------------------------------------------
+> -
+
+. 
+. reg ft75_output_backward lnft75difference, vce(cluster stpr_id)
+
+Linear regression                                      Number of obs =    1218
+                                                       F(  1,   106) =    1.55
+                                                       Prob > F      =  0.2159
+                                                       R-squared     =  0.0064
+                                                       Root MSE      =  .10373
+
+                                  (Std. Err. adjusted for 107 clusters in stpr_id
+> )
+---------------------------------------------------------------------------------
+> -
+                 |               Robust
+ft75_output_ba~d |      Coef.   Std. Err.      t    P>|t|     [95% Conf. Interval
+> ]
+-----------------+---------------------------------------------------------------
+> -
+lnft75difference |   -.007192   .0057769    -1.24   0.216    -.0186454    .004261
+> 3
+           _cons |   .0040817   .0058091     0.70   0.484    -.0074354    .015598
+> 8
+---------------------------------------------------------------------------------
+> -
+
+. 
+. reg ft75_output_predict lnft75difference, vce(cluster stpr_id) 
+
+Linear regression                                      Number of obs =    1218
+                                                       F(  1,   106) =    0.89
+                                                       Prob > F      =  0.3487
+                                                       R-squared     =  0.0030
+                                                       Root MSE      =   .0965
+
+                                  (Std. Err. adjusted for 107 clusters in stpr_id
+> )
+---------------------------------------------------------------------------------
+> -
+                 |               Robust
+ft75_output_pr~t |      Coef.   Std. Err.      t    P>|t|     [95% Conf. Interval
+> ]
+-----------------+---------------------------------------------------------------
+> -
+lnft75difference |  -.0045483   .0048325    -0.94   0.349    -.0141292    .005032
+> 6
+           _cons |  -.0069671   .0043567    -1.60   0.113    -.0156046    .001670
+> 5
+---------------------------------------------------------------------------------
+> -
+
+. 
+. reg ft75_percapinc_backward lnft75difference, vce(cluster stpr_id)
+
+Linear regression                                      Number of obs =    1218
+                                                       F(  1,   106) =    4.52
+                                                       Prob > F      =  0.0359
+                                                       R-squared     =  0.0287
+                                                       Root MSE      =  .13957
+
+                                  (Std. Err. adjusted for 107 clusters in stpr_id
+> )
+---------------------------------------------------------------------------------
+> -
+                 |               Robust
+ft75_percapinc~d |      Coef.   Std. Err.      t    P>|t|     [95% Conf. Interval
+> ]
+-----------------+---------------------------------------------------------------
+> -
+lnft75difference |   -.020708   .0097425    -2.13   0.036    -.0400235   -.001392
+> 5
+           _cons |   .0011633      .0069     0.17   0.866    -.0125165    .014843
+> 2
+---------------------------------------------------------------------------------
+> -
+
+. 
+. reg ft75_percapinc_predict lnft75difference, vce(cluster stpr_id) 
+
+Linear regression                                      Number of obs =    1218
+                                                       F(  1,   106) =    2.83
+                                                       Prob > F      =  0.0952
+                                                       R-squared     =  0.0126
+                                                       Root MSE      =  .16313
+
+                                  (Std. Err. adjusted for 107 clusters in stpr_id
+> )
+---------------------------------------------------------------------------------
+> -
+                 |               Robust
+ft75_percapinc~t |      Coef.   Std. Err.      t    P>|t|     [95% Conf. Interval
+> ]
+-----------------+---------------------------------------------------------------
+> -
+lnft75difference |   .0158925    .009441     1.68   0.095    -.0028251    .034610
+> 1
+           _cons |   .0011273   .0088886     0.13   0.899    -.0164952    .018749
+> 8
+---------------------------------------------------------------------------------
+> -
+
+. 
+. reg ft75_pop_backward lnft75difference, vce(cluster stpr_id)
+
+Linear regression                                      Number of obs =    1218
+                                                       F(  1,   106) =    0.39
+                                                       Prob > F      =  0.5359
+                                                       R-squared     =  0.0008
+                                                       Root MSE      =  .09644
+
+                                  (Std. Err. adjusted for 107 clusters in stpr_id
+> )
+---------------------------------------------------------------------------------
+> -
+                 |               Robust
+ft75_pop_backw~d |      Coef.   Std. Err.      t    P>|t|     [95% Conf. Interval
+> ]
+-----------------+---------------------------------------------------------------
+> -
+lnft75difference |  -.0023748   .0038242    -0.62   0.536    -.0099566     .00520
+> 7
+           _cons |  -.0028528   .0040973    -0.70   0.488    -.0109761    .005270
+> 5
+---------------------------------------------------------------------------------
+> -
+
+. 
+. reg ft75_pop_predict lnft75difference, vce(cluster stpr_id) 
+
+Linear regression                                      Number of obs =    1218
+                                                       F(  1,   106) =    2.24
+                                                       Prob > F      =  0.1372
+                                                       R-squared     =  0.0020
+                                                       Root MSE      =   .0873
+
+                                  (Std. Err. adjusted for 107 clusters in stpr_id
+> )
+---------------------------------------------------------------------------------
+> -
+                 |               Robust
+ft75_pop_predict |      Coef.   Std. Err.      t    P>|t|     [95% Conf. Interval
+> ]
+-----------------+---------------------------------------------------------------
+> -
+lnft75difference |  -.0033725   .0022517    -1.50   0.137    -.0078368    .001091
+> 8
+           _cons |  -.0100144   .0040694    -2.46   0.015    -.0180823   -.001946
+> 4
+---------------------------------------------------------------------------------
+> -
+
+. 
+. reg ft75_wagebill_backward lnft75difference, vce(cluster stpr_id)
+
+Linear regression                                      Number of obs =    1219
+                                                       F(  1,   106) =    0.18
+                                                       Prob > F      =  0.6711
+                                                       R-squared     =  0.0002
+                                                       Root MSE      =  .24722
+
+                                  (Std. Err. adjusted for 107 clusters in stpr_id
+> )
+---------------------------------------------------------------------------------
+> -
+                 |               Robust
+ft75_wagebill_~d |      Coef.   Std. Err.      t    P>|t|     [95% Conf. Interval
+> ]
+-----------------+---------------------------------------------------------------
+> -
+lnft75difference |  -.0028388   .0066658    -0.43   0.671    -.0160544    .010376
+> 9
+           _cons |   .0170244   .0099208     1.72   0.089    -.0026445    .036693
+> 3
+---------------------------------------------------------------------------------
+> -
+
+. 
+. reg ft75_wagebill_predict lnft75difference, vce(cluster stpr_id) 
+
+Linear regression                                      Number of obs =    1219
+                                                       F(  1,   106) =    0.00
+                                                       Prob > F      =  0.9894
+                                                       R-squared     =  0.0000
+                                                       Root MSE      =  .22733
+
+                                  (Std. Err. adjusted for 107 clusters in stpr_id
+> )
+---------------------------------------------------------------------------------
+> -
+                 |               Robust
+ft75_wagebill_~t |      Coef.   Std. Err.      t    P>|t|     [95% Conf. Interval
+> ]
+-----------------+---------------------------------------------------------------
+> -
+lnft75difference |  -.0001237   .0092654    -0.01   0.989    -.0184933    .018245
+> 9
+           _cons |  -.0044097   .0112484    -0.39   0.696    -.0267107    .017891
+> 3
+---------------------------------------------------------------------------------
+> -
+
+. 
+. reg ft75_wageemp_backward lnft75difference, vce(cluster stpr_id)
+
+Linear regression                                      Number of obs =    1219
+                                                       F(  1,   106) =    0.25
+                                                       Prob > F      =  0.6188
+                                                       R-squared     =  0.0002
+                                                       Root MSE      =  .18957
+
+                                  (Std. Err. adjusted for 107 clusters in stpr_id
+> )
+---------------------------------------------------------------------------------
+> -
+                 |               Robust
+ft75_wageemp_b~d |      Coef.   Std. Err.      t    P>|t|     [95% Conf. Interval
+> ]
+-----------------+---------------------------------------------------------------
+> -
+lnft75difference |   .0025104   .0050301     0.50   0.619    -.0074623    .012483
+> 1
+           _cons |   .0141182   .0078509     1.80   0.075    -.0014469    .029683
+> 3
+---------------------------------------------------------------------------------
+> -
+
+. 
+. reg ft75_wageemp_predict lnft75difference, vce(cluster stpr_id) 
+
+Linear regression                                      Number of obs =    1219
+                                                       F(  1,   106) =    1.16
+                                                       Prob > F      =  0.2849
+                                                       R-squared     =  0.0047
+                                                       Root MSE      =   .1733
+
+                                  (Std. Err. adjusted for 107 clusters in stpr_id
+> )
+---------------------------------------------------------------------------------
+> -
+                 |               Robust
+ft75_wageemp_p~t |      Coef.   Std. Err.      t    P>|t|     [95% Conf. Interval
+> ]
+-----------------+---------------------------------------------------------------
+> -
+lnft75difference |   .0102426   .0095299     1.07   0.285    -.0086514    .029136
+> 7
+           _cons |   .0022605   .0097498     0.23   0.817    -.0170695    .021590
+> 5
+---------------------------------------------------------------------------------
+> -
+
+. 
+. log close
+      name:  <unnamed>
+       log:  R:\users\borders_project\New_stata_files\Log_Files\ft75Clusterregres
+> sions.smcl
+  log type:  smcl
+ closed on:  22 Jul 2013, 14:11:19
+---------------------------------------------------------------------------------

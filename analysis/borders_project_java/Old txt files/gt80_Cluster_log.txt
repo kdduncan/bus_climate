@@ -1,0 +1,515 @@
+---------------------------------------------------------------------------------
+      name:  <unnamed>
+       log:  R:\users\borders_project\New_stata_files\Log_Files\gt80Clusterregres
+> sions.smcl
+  log type:  smcl
+ opened on:  22 Jul 2013, 12:39:30
+
+. 
+. reg gt80_aginc_backward lngt80difference, vce(cluster stpr_id)
+
+Linear regression                                      Number of obs =    1217
+                                                       F(  1,   106) =    0.01
+                                                       Prob > F      =  0.9229
+                                                       R-squared     =  0.0000
+                                                       Root MSE      =  .25273
+
+                                  (Std. Err. adjusted for 107 clusters in stpr_id
+> )
+---------------------------------------------------------------------------------
+> -
+                 |               Robust
+gt80_aginc_bac~d |      Coef.   Std. Err.      t    P>|t|     [95% Conf. Interval
+> ]
+-----------------+---------------------------------------------------------------
+> -
+lngt80difference |   .0093511   .0964488     0.10   0.923     -.181868    .200570
+> 2
+           _cons |  -.0070758   .0138282    -0.51   0.610    -.0344916    .020339
+> 9
+---------------------------------------------------------------------------------
+> -
+
+. 
+. reg gt80_aginc_predict lngt80difference, vce(cluster stpr_id) 
+
+Linear regression                                      Number of obs =    1217
+                                                       F(  1,   106) =    5.44
+                                                       Prob > F      =  0.0216
+                                                       R-squared     =  0.0178
+                                                       Root MSE      =   .2456
+
+                                  (Std. Err. adjusted for 107 clusters in stpr_id
+> )
+---------------------------------------------------------------------------------
+> -
+                 |               Robust
+gt80_aginc_pre~t |      Coef.   Std. Err.      t    P>|t|     [95% Conf. Interval
+> ]
+-----------------+---------------------------------------------------------------
+> -
+lngt80difference |   .2235435   .0958806     2.33   0.022     .0334508    .413636
+> 2
+           _cons |  -.0209135   .0134174    -1.56   0.122    -.0475149    .005687
+> 9
+---------------------------------------------------------------------------------
+> -
+
+. 
+. reg gt80_avwage_backward lngt80difference, vce(cluster stpr_id)
+
+Linear regression                                      Number of obs =    1218
+                                                       F(  1,   106) =    0.81
+                                                       Prob > F      =  0.3714
+                                                       R-squared     =  0.0014
+                                                       Root MSE      =  .09709
+
+                                  (Std. Err. adjusted for 107 clusters in stpr_id
+> )
+---------------------------------------------------------------------------------
+> -
+                 |               Robust
+gt80_avwage_ba~d |      Coef.   Std. Err.      t    P>|t|     [95% Conf. Interval
+> ]
+-----------------+---------------------------------------------------------------
+> -
+lngt80difference |  -.0247102    .027528    -0.90   0.371    -.0792872    .029866
+> 8
+           _cons |  -.0128842    .004254    -3.03   0.003    -.0213183   -.004450
+> 2
+---------------------------------------------------------------------------------
+> -
+
+. 
+. reg gt80_avwage_predict lngt80difference, vce(cluster stpr_id) 
+
+Linear regression                                      Number of obs =    1218
+                                                       F(  1,   106) =    0.37
+                                                       Prob > F      =  0.5427
+                                                       R-squared     =  0.0006
+                                                       Root MSE      =  .10104
+
+                                  (Std. Err. adjusted for 107 clusters in stpr_id
+> )
+---------------------------------------------------------------------------------
+> -
+                 |               Robust
+gt80_avwage_pr~t |      Coef.   Std. Err.      t    P>|t|     [95% Conf. Interval
+> ]
+-----------------+---------------------------------------------------------------
+> -
+lngt80difference |    .016153   .0264511     0.61   0.543    -.0362888    .068594
+> 8
+           _cons |   -.002167   .0043343    -0.50   0.618    -.0107602    .006426
+> 3
+---------------------------------------------------------------------------------
+> -
+
+. 
+. reg gt80_nfincome_backward lngt80difference, vce(cluster stpr_id)
+
+Linear regression                                      Number of obs =    1218
+                                                       F(  1,   106) =   10.66
+                                                       Prob > F      =  0.0015
+                                                       R-squared     =  0.0226
+                                                       Root MSE      =  .11572
+
+                                  (Std. Err. adjusted for 107 clusters in stpr_id
+> )
+---------------------------------------------------------------------------------
+> -
+                 |               Robust
+gt80_nfincome_~d |      Coef.   Std. Err.      t    P>|t|     [95% Conf. Interval
+> ]
+-----------------+---------------------------------------------------------------
+> -
+lngt80difference |   .1188683    .036401     3.27   0.001     .0466997    .191036
+> 8
+           _cons |  -.0126061   .0056533    -2.23   0.028    -.0238142   -.001397
+> 9
+---------------------------------------------------------------------------------
+> -
+
+. 
+. reg gt80_nfincome_predict lngt80difference, vce(cluster stpr_id) 
+
+Linear regression                                      Number of obs =    1218
+                                                       F(  1,   106) =    0.55
+                                                       Prob > F      =  0.4610
+                                                       R-squared     =  0.0020
+                                                       Root MSE      =  .11593
+
+                                  (Std. Err. adjusted for 107 clusters in stpr_id
+> )
+---------------------------------------------------------------------------------
+> -
+                 |               Robust
+gt80_nfincome_~t |      Coef.   Std. Err.      t    P>|t|     [95% Conf. Interval
+> ]
+-----------------+---------------------------------------------------------------
+> -
+lngt80difference |   .0353098   .0477192     0.74   0.461    -.0592981    .129917
+> 7
+           _cons |  -.0038979   .0058142    -0.67   0.504    -.0154252    .007629
+> 4
+---------------------------------------------------------------------------------
+> -
+
+. 
+. reg gt80_nfpropnum_backward lngt80difference, vce(cluster stpr_id)
+
+Linear regression                                      Number of obs =    1218
+                                                       F(  1,   106) =    0.84
+                                                       Prob > F      =  0.3621
+                                                       R-squared     =  0.0014
+                                                       Root MSE      =  .15274
+
+                                  (Std. Err. adjusted for 107 clusters in stpr_id
+> )
+---------------------------------------------------------------------------------
+> -
+                 |               Robust
+gt80_nfpropnum~d |      Coef.   Std. Err.      t    P>|t|     [95% Conf. Interval
+> ]
+-----------------+---------------------------------------------------------------
+> -
+lngt80difference |   .0382004   .0417346     0.92   0.362    -.0445425    .120943
+> 3
+           _cons |  -.0189202   .0068316    -2.77   0.007    -.0324645   -.005375
+> 8
+---------------------------------------------------------------------------------
+> -
+
+. 
+. reg gt80_nfpropnum_predict lngt80difference, vce(cluster stpr_id) 
+
+Linear regression                                      Number of obs =    1218
+                                                       F(  1,   106) =   11.15
+                                                       Prob > F      =  0.0012
+                                                       R-squared     =  0.0275
+                                                       Root MSE      =  .19502
+
+                                  (Std. Err. adjusted for 107 clusters in stpr_id
+> )
+---------------------------------------------------------------------------------
+> -
+                 |               Robust
+gt80_nfpropnum~t |      Coef.   Std. Err.      t    P>|t|     [95% Conf. Interval
+> ]
+-----------------+---------------------------------------------------------------
+> -
+lngt80difference |   .2211408   .0662149     3.34   0.001     .0898633    .352418
+> 3
+           _cons |  -.0035114   .0103857    -0.34   0.736    -.0241021    .017079
+> 3
+---------------------------------------------------------------------------------
+> -
+
+. 
+. reg gt80_nfpropincome_backward lngt80difference, vce(cluster stpr_id)
+
+Linear regression                                      Number of obs =    1218
+                                                       F(  1,   106) =    8.51
+                                                       Prob > F      =  0.0043
+                                                       R-squared     =  0.0215
+                                                       Root MSE      =  .16551
+
+                                  (Std. Err. adjusted for 107 clusters in stpr_id
+> )
+---------------------------------------------------------------------------------
+> -
+                 |               Robust
+gt80_nfpropinc~d |      Coef.   Std. Err.      t    P>|t|     [95% Conf. Interval
+> ]
+-----------------+---------------------------------------------------------------
+> -
+lngt80difference |   .1655945   .0567553     2.92   0.004     .0530717    .278117
+> 3
+           _cons |  -.0069757   .0096253    -0.72   0.470    -.0260588    .012107
+> 5
+---------------------------------------------------------------------------------
+> -
+
+. 
+. reg gt80_nfpropincome_predict lngt80difference, vce(cluster stpr_id) 
+
+Linear regression                                      Number of obs =    1218
+                                                       F(  1,   106) =    0.03
+                                                       Prob > F      =  0.8682
+                                                       R-squared     =  0.0001
+                                                       Root MSE      =   .2169
+
+                                  (Std. Err. adjusted for 107 clusters in stpr_id
+> )
+---------------------------------------------------------------------------------
+> -
+                 |               Robust
+gt80_nfpropinc~t |      Coef.   Std. Err.      t    P>|t|     [95% Conf. Interval
+> ]
+-----------------+---------------------------------------------------------------
+> -
+lngt80difference |   .0165864   .0997401     0.17   0.868    -.1811581    .214330
+> 9
+           _cons |   .0162608   .0129611     1.25   0.212    -.0094358    .041957
+> 5
+---------------------------------------------------------------------------------
+> -
+
+. 
+. reg gt80_output_backward lngt80difference, vce(cluster stpr_id)
+
+Linear regression                                      Number of obs =    1218
+                                                       F(  1,   106) =    0.02
+                                                       Prob > F      =  0.8791
+                                                       R-squared     =  0.0000
+                                                       Root MSE      =  .09664
+
+                                  (Std. Err. adjusted for 107 clusters in stpr_id
+> )
+---------------------------------------------------------------------------------
+> -
+                 |               Robust
+gt80_output_ba~d |      Coef.   Std. Err.      t    P>|t|     [95% Conf. Interval
+> ]
+-----------------+---------------------------------------------------------------
+> -
+lngt80difference |    .003858   .0253016     0.15   0.879     -.046305    .054020
+> 9
+           _cons |  -.0076775   .0043857    -1.75   0.083    -.0163725    .001017
+> 5
+---------------------------------------------------------------------------------
+> -
+
+. 
+. reg gt80_output_predict lngt80difference, vce(cluster stpr_id) 
+
+Linear regression                                      Number of obs =    1218
+                                                       F(  1,   106) =    0.79
+                                                       Prob > F      =  0.3764
+                                                       R-squared     =  0.0011
+                                                       Root MSE      =  .10029
+
+                                  (Std. Err. adjusted for 107 clusters in stpr_id
+> )
+---------------------------------------------------------------------------------
+> -
+                 |               Robust
+gt80_output_pr~t |      Coef.   Std. Err.      t    P>|t|     [95% Conf. Interval
+> ]
+-----------------+---------------------------------------------------------------
+> -
+lngt80difference |  -.0221408   .0249266    -0.89   0.376    -.0715603    .027278
+> 7
+           _cons |  -.0027301   .0042956    -0.64   0.526    -.0112465    .005786
+> 4
+---------------------------------------------------------------------------------
+> -
+
+. 
+. reg gt80_percapinc_backward lngt80difference, vce(cluster stpr_id)
+
+Linear regression                                      Number of obs =    1218
+                                                       F(  1,   106) =    0.40
+                                                       Prob > F      =  0.5268
+                                                       R-squared     =  0.0016
+                                                       Root MSE      =  .16404
+
+                                  (Std. Err. adjusted for 107 clusters in stpr_id
+> )
+---------------------------------------------------------------------------------
+> -
+                 |               Robust
+gt80_percapinc~d |      Coef.   Std. Err.      t    P>|t|     [95% Conf. Interval
+> ]
+-----------------+---------------------------------------------------------------
+> -
+lngt80difference |  -.0441515   .0695224    -0.64   0.527    -.1819865    .093683
+> 4
+           _cons |   .0032557   .0096308     0.34   0.736    -.0158383    .022349
+> 7
+---------------------------------------------------------------------------------
+> -
+
+. 
+. reg gt80_percapinc_predict lngt80difference, vce(cluster stpr_id) 
+
+Linear regression                                      Number of obs =    1218
+                                                       F(  1,   106) =    2.71
+                                                       Prob > F      =  0.1026
+                                                       R-squared     =  0.0076
+                                                       Root MSE      =  .14286
+
+                                  (Std. Err. adjusted for 107 clusters in stpr_id
+> )
+---------------------------------------------------------------------------------
+> -
+                 |               Robust
+gt80_percapinc~t |      Coef.   Std. Err.      t    P>|t|     [95% Conf. Interval
+> ]
+-----------------+---------------------------------------------------------------
+> -
+lngt80difference |   .0844107   .0512591     1.65   0.103    -.0172156    .186036
+> 9
+           _cons |  -.0034766   .0080171    -0.43   0.665    -.0193713    .012418
+> 1
+---------------------------------------------------------------------------------
+> -
+
+. 
+. reg gt80_pop_backward lngt80difference, vce(cluster stpr_id)
+
+Linear regression                                      Number of obs =    1218
+                                                       F(  1,   106) =    8.34
+                                                       Prob > F      =  0.0047
+                                                       R-squared     =  0.0126
+                                                       Root MSE      =  .08684
+
+                                  (Std. Err. adjusted for 107 clusters in stpr_id
+> )
+---------------------------------------------------------------------------------
+> -
+                 |               Robust
+gt80_pop_backw~d |      Coef.   Std. Err.      t    P>|t|     [95% Conf. Interval
+> ]
+-----------------+---------------------------------------------------------------
+> -
+lngt80difference |   .0662178   .0229323     2.89   0.005     .0207522    .111683
+> 3
+           _cons |  -.0098097   .0038822    -2.53   0.013    -.0175066   -.002112
+> 9
+---------------------------------------------------------------------------------
+> -
+
+. 
+. reg gt80_pop_predict lngt80difference, vce(cluster stpr_id) 
+
+Linear regression                                      Number of obs =    1218
+                                                       F(  1,   106) =    2.83
+                                                       Prob > F      =  0.0954
+                                                       R-squared     =  0.0084
+                                                       Root MSE      =  .07367
+
+                                  (Std. Err. adjusted for 107 clusters in stpr_id
+> )
+---------------------------------------------------------------------------------
+> -
+                 |               Robust
+gt80_pop_predict |      Coef.   Std. Err.      t    P>|t|     [95% Conf. Interval
+> ]
+-----------------+---------------------------------------------------------------
+> -
+lngt80difference |   .0456577   .0271394     1.68   0.095    -.0081489    .099464
+> 3
+           _cons |  -.0090172   .0037538    -2.40   0.018    -.0164595   -.001574
+> 9
+---------------------------------------------------------------------------------
+> -
+
+. 
+. reg gt80_wagebill_backward lngt80difference, vce(cluster stpr_id)
+
+Linear regression                                      Number of obs =    1219
+                                                       F(  1,   106) =    1.37
+                                                       Prob > F      =  0.2442
+                                                       R-squared     =  0.0027
+                                                       Root MSE      =  .22703
+
+                                  (Std. Err. adjusted for 107 clusters in stpr_id
+> )
+---------------------------------------------------------------------------------
+> -
+                 |               Robust
+gt80_wagebill_~d |      Coef.   Std. Err.      t    P>|t|     [95% Conf. Interval
+> ]
+-----------------+---------------------------------------------------------------
+> -
+lngt80difference |  -.0792105    .067646    -1.17   0.244    -.2133254    .054904
+> 4
+           _cons |   -.005314   .0103833    -0.51   0.610    -.0258999    .015271
+> 9
+---------------------------------------------------------------------------------
+> -
+
+. 
+. reg gt80_wagebill_predict lngt80difference, vce(cluster stpr_id) 
+
+Linear regression                                      Number of obs =    1219
+                                                       F(  1,   106) =    0.07
+                                                       Prob > F      =  0.7911
+                                                       R-squared     =  0.0002
+                                                       Root MSE      =  .25412
+
+                                  (Std. Err. adjusted for 107 clusters in stpr_id
+> )
+---------------------------------------------------------------------------------
+> -
+                 |               Robust
+gt80_wagebill_~t |      Coef.   Std. Err.      t    P>|t|     [95% Conf. Interval
+> ]
+-----------------+---------------------------------------------------------------
+> -
+lngt80difference |   .0260754   .0981952     0.27   0.791    -.1686062     .22075
+> 7
+           _cons |  -.0081799   .0137075    -0.60   0.552    -.0353564    .018996
+> 5
+---------------------------------------------------------------------------------
+> -
+
+. 
+. reg gt80_wageemp_backward lngt80difference, vce(cluster stpr_id)
+
+Linear regression                                      Number of obs =    1219
+                                                       F(  1,   106) =    1.02
+                                                       Prob > F      =  0.3144
+                                                       R-squared     =  0.0020
+                                                       Root MSE      =  .17353
+
+                                  (Std. Err. adjusted for 107 clusters in stpr_id
+> )
+---------------------------------------------------------------------------------
+> -
+                 |               Robust
+gt80_wageemp_b~d |      Coef.   Std. Err.      t    P>|t|     [95% Conf. Interval
+> ]
+-----------------+---------------------------------------------------------------
+> -
+lngt80difference |  -.0521351   .0515797    -1.01   0.314    -.1543968    .050126
+> 7
+           _cons |   .0033709   .0094773     0.36   0.723    -.0154187    .022160
+> 5
+---------------------------------------------------------------------------------
+> -
+
+. 
+. reg gt80_wageemp_predict lngt80difference, vce(cluster stpr_id) 
+
+Linear regression                                      Number of obs =    1219
+                                                       F(  1,   106) =    0.05
+                                                       Prob > F      =  0.8165
+                                                       R-squared     =  0.0002
+                                                       Root MSE      =  .18238
+
+                                  (Std. Err. adjusted for 107 clusters in stpr_id
+> )
+---------------------------------------------------------------------------------
+> -
+                 |               Robust
+gt80_wageemp_p~t |      Coef.   Std. Err.      t    P>|t|     [95% Conf. Interval
+> ]
+-----------------+---------------------------------------------------------------
+> -
+lngt80difference |   .0155345   .0667822     0.23   0.817    -.1168677    .147936
+> 8
+           _cons |  -.0002472   .0095661    -0.03   0.979     -.019213    .018718
+> 6
+---------------------------------------------------------------------------------
+> -
+
+. 
+. log close
+      name:  <unnamed>
+       log:  R:\users\borders_project\New_stata_files\Log_Files\gt80Clusterregres
+> sions.smcl
+  log type:  smcl
+ closed on:  22 Jul 2013, 12:39:31
+---------------------------------------------------------------------------------

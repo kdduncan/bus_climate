@@ -1,0 +1,22 @@
+log using "R:\users\borders_project\New_stata_files\Log_Files\gt84regressions.smcl"
+reg gt84_aginc_backward lngt84difference 
+reg gt84_aginc_predict lngt84difference 
+reg gt84_avwage_backward lngt84difference 
+reg gt84_avwage_predict lngt84difference 
+reg gt84_nfincome_backward lngt84difference 
+reg gt84_nfincome_predict lngt84difference 
+reg gt84_nfpropnum_backward lngt84difference 
+reg gt84_nfpropnum_predict lngt84difference 
+reg gt84_nfpropincome_backward lngt84difference 
+reg gt84_nfpropincome_predict lngt84difference 
+reg gt84_output_backward lngt84difference 
+reg gt84_output_predict lngt84difference 
+reg gt84_percapinc_backward lngt84difference 
+reg gt84_percapinc_predict lngt84difference 
+reg gt84_pop_backward lngt84difference 
+reg gt84_pop_predict lngt84difference 
+reg gt84_wagebill_backward lngt84difference 
+reg gt84_wagebill_predict lngt84difference 
+reg gt84_wageemp_backward lngt84difference 
+reg gt84_wageemp_predict lngt84difference 
+log close

@@ -1,0 +1,17 @@
+reg avwage_backward lnfrsg04difference, vce(cluster stpr_id)
+estimates store model1
+reg avwage_predict lnfrsg04difference, vce(cluster stpr_id) 
+estimates store model2
+reg output_backward lnfrsg04difference, vce(cluster stpr_id)
+estimates store model3
+reg output_predict lnfrsg04difference, vce(cluster stpr_id) 
+estimates store model4
+reg wagebill_backward lnfrsg04difference, vce(cluster stpr_id)
+estimates store model5
+reg wagebill_predict lnfrsg04difference, vce(cluster stpr_id) 
+estimates store model6
+reg wageemp_backward lnfrsg04difference, vce(cluster stpr_id)
+estimates store model7
+reg wageemp_predict lnfrsg04difference, vce(cluster stpr_id) 
+estimates store model8
+esttab  model1 model2 model3 model4 model5 model6 model7 model8 using  R:\users\borders_project\New_stata_files\IndexesTest\frsg04results2.txt

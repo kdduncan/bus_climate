@@ -1,0 +1,515 @@
+---------------------------------------------------------------------------------
+      name:  <unnamed>
+       log:  R:\users\borders_project\New_stata_files\Log_Files\ne02Clusterregres
+> sions.smcl
+  log type:  smcl
+ opened on:  22 Jul 2013, 14:13:23
+
+. 
+. reg ne02_aginc_backward lnne02difference, vce(cluster stpr_id)
+
+Linear regression                                      Number of obs =    1222
+                                                       F(  1,   106) =    4.02
+                                                       Prob > F      =  0.0476
+                                                       R-squared     =  0.0092
+                                                       Root MSE      =  .16777
+
+                                  (Std. Err. adjusted for 107 clusters in stpr_id
+> )
+---------------------------------------------------------------------------------
+> -
+                 |               Robust
+ne02_aginc_bac~d |      Coef.   Std. Err.      t    P>|t|     [95% Conf. Interval
+> ]
+-----------------+---------------------------------------------------------------
+> -
+lnne02difference |   .0712313   .0355467     2.00   0.048     .0007565    .141706
+> 1
+           _cons |  -.0144505   .0079101    -1.83   0.071    -.0301329     .00123
+> 2
+---------------------------------------------------------------------------------
+> -
+
+. 
+. reg ne02_aginc_predict lnne02difference, vce(cluster stpr_id) 
+
+Linear regression                                      Number of obs =    1222
+                                                       F(  1,   106) =    3.14
+                                                       Prob > F      =  0.0794
+                                                       R-squared     =  0.0063
+                                                       Root MSE      =  .13831
+
+                                  (Std. Err. adjusted for 107 clusters in stpr_id
+> )
+---------------------------------------------------------------------------------
+> -
+                 |               Robust
+ne02_aginc_pre~t |      Coef.   Std. Err.      t    P>|t|     [95% Conf. Interval
+> ]
+-----------------+---------------------------------------------------------------
+> -
+lnne02difference |  -.0486764   .0274833    -1.77   0.079    -.1031647     .00581
+> 2
+           _cons |   .0021347   .0067642     0.32   0.753    -.0112759    .015545
+> 3
+---------------------------------------------------------------------------------
+> -
+
+. 
+. reg ne02_avwage_backward lnne02difference, vce(cluster stpr_id)
+
+Linear regression                                      Number of obs =    1222
+                                                       F(  1,   106) =    0.28
+                                                       Prob > F      =  0.5987
+                                                       R-squared     =  0.0007
+                                                       Root MSE      =  .08578
+
+                                  (Std. Err. adjusted for 107 clusters in stpr_id
+> )
+---------------------------------------------------------------------------------
+> -
+                 |               Robust
+ne02_avwage_ba~d |      Coef.   Std. Err.      t    P>|t|     [95% Conf. Interval
+> ]
+-----------------+---------------------------------------------------------------
+> -
+lnne02difference |   .0100553   .0190479     0.53   0.599     -.027709    .047819
+> 5
+           _cons |   .0021054   .0046802     0.45   0.654    -.0071735    .011384
+> 3
+---------------------------------------------------------------------------------
+> -
+
+. 
+. reg ne02_avwage_predict lnne02difference, vce(cluster stpr_id) 
+
+Linear regression                                      Number of obs =    1222
+                                                       F(  1,   106) =    1.07
+                                                       Prob > F      =  0.3036
+                                                       R-squared     =  0.0029
+                                                       Root MSE      =  .07588
+
+                                  (Std. Err. adjusted for 107 clusters in stpr_id
+> )
+---------------------------------------------------------------------------------
+> -
+                 |               Robust
+ne02_avwage_pr~t |      Coef.   Std. Err.      t    P>|t|     [95% Conf. Interval
+> ]
+-----------------+---------------------------------------------------------------
+> -
+lnne02difference |  -.0181627   .0175702    -1.03   0.304    -.0529974    .016671
+> 9
+           _cons |  -.0054628   .0036018    -1.52   0.132    -.0126037    .001678
+> 1
+---------------------------------------------------------------------------------
+> -
+
+. 
+. reg ne02_nfincome_backward lnne02difference, vce(cluster stpr_id)
+
+Linear regression                                      Number of obs =    1222
+                                                       F(  1,   106) =    0.05
+                                                       Prob > F      =  0.8172
+                                                       R-squared     =  0.0001
+                                                       Root MSE      =  .09199
+
+                                  (Std. Err. adjusted for 107 clusters in stpr_id
+> )
+---------------------------------------------------------------------------------
+> -
+                 |               Robust
+ne02_nfincome_~d |      Coef.   Std. Err.      t    P>|t|     [95% Conf. Interval
+> ]
+-----------------+---------------------------------------------------------------
+> -
+lnne02difference |   .0045625   .0196877     0.23   0.817    -.0344703    .043595
+> 4
+           _cons |  -.0122519   .0048976    -2.50   0.014    -.0219619   -.002541
+> 9
+---------------------------------------------------------------------------------
+> -
+
+. 
+. reg ne02_nfincome_predict lnne02difference, vce(cluster stpr_id) 
+
+Linear regression                                      Number of obs =    1222
+                                                       F(  1,   106) =    2.91
+                                                       Prob > F      =  0.0908
+                                                       R-squared     =  0.0091
+                                                       Root MSE      =  .09345
+
+                                  (Std. Err. adjusted for 107 clusters in stpr_id
+> )
+---------------------------------------------------------------------------------
+> -
+                 |               Robust
+ne02_nfincome_~t |      Coef.   Std. Err.      t    P>|t|     [95% Conf. Interval
+> ]
+-----------------+---------------------------------------------------------------
+> -
+lnne02difference |  -.0394061   .0230899    -1.71   0.091     -.085184    .006371
+> 8
+           _cons |   -.003482   .0053535    -0.65   0.517    -.0140958    .007131
+> 8
+---------------------------------------------------------------------------------
+> -
+
+. 
+. reg ne02_nfpropnum_backward lnne02difference, vce(cluster stpr_id)
+
+Linear regression                                      Number of obs =    1222
+                                                       F(  1,   106) =    0.25
+                                                       Prob > F      =  0.6185
+                                                       R-squared     =  0.0002
+                                                       Root MSE      =  .37219
+
+                                  (Std. Err. adjusted for 107 clusters in stpr_id
+> )
+---------------------------------------------------------------------------------
+> -
+                 |               Robust
+ne02_nfpropnum~d |      Coef.   Std. Err.      t    P>|t|     [95% Conf. Interval
+> ]
+-----------------+---------------------------------------------------------------
+> -
+lnne02difference |    -.02389   .0478323    -0.50   0.618    -.1187222    .070942
+> 3
+           _cons |  -.0034879   .0120202    -0.29   0.772    -.0273191    .020343
+> 2
+---------------------------------------------------------------------------------
+> -
+
+. 
+. reg ne02_nfpropnum_predict lnne02difference, vce(cluster stpr_id) 
+
+Linear regression                                      Number of obs =    1222
+                                                       F(  1,   106) =    2.25
+                                                       Prob > F      =  0.1362
+                                                       R-squared     =  0.0101
+                                                       Root MSE      =  .09776
+
+                                  (Std. Err. adjusted for 107 clusters in stpr_id
+> )
+---------------------------------------------------------------------------------
+> -
+                 |               Robust
+ne02_nfpropnum~t |      Coef.   Std. Err.      t    P>|t|     [95% Conf. Interval
+> ]
+-----------------+---------------------------------------------------------------
+> -
+lnne02difference |   .0434107   .0289087     1.50   0.136    -.0139037    .100725
+> 1
+           _cons |  -.0083777   .0061564    -1.36   0.176    -.0205833    .003827
+> 9
+---------------------------------------------------------------------------------
+> -
+
+. 
+. reg ne02_nfpropincome_backward lnne02difference, vce(cluster stpr_id)
+
+Linear regression                                      Number of obs =    1222
+                                                       F(  1,   106) =    1.18
+                                                       Prob > F      =  0.2795
+                                                       R-squared     =  0.0022
+                                                       Root MSE      =  .45306
+
+                                  (Std. Err. adjusted for 107 clusters in stpr_id
+> )
+---------------------------------------------------------------------------------
+> -
+                 |               Robust
+ne02_nfpropinc~d |      Coef.   Std. Err.      t    P>|t|     [95% Conf. Interval
+> ]
+-----------------+---------------------------------------------------------------
+> -
+lnne02difference |  -.0931531   .0856908    -1.09   0.279    -.2630433    .076737
+> 2
+           _cons |  -.0334577   .0208488    -1.60   0.112    -.0747925    .007877
+> 2
+---------------------------------------------------------------------------------
+> -
+
+. 
+. reg ne02_nfpropincome_predict lnne02difference, vce(cluster stpr_id) 
+
+Linear regression                                      Number of obs =    1222
+                                                       F(  1,   106) =    0.01
+                                                       Prob > F      =  0.9108
+                                                       R-squared     =  0.0001
+                                                       Root MSE      =   .1605
+
+                                  (Std. Err. adjusted for 107 clusters in stpr_id
+> )
+---------------------------------------------------------------------------------
+> -
+                 |               Robust
+ne02_nfpropinc~t |      Coef.   Std. Err.      t    P>|t|     [95% Conf. Interval
+> ]
+-----------------+---------------------------------------------------------------
+> -
+lnne02difference |   .0053647   .0477705     0.11   0.911     -.089345    .100074
+> 4
+           _cons |   .0096607   .0121103     0.80   0.427    -.0143491    .033670
+> 5
+---------------------------------------------------------------------------------
+> -
+
+. 
+. reg ne02_output_backward lnne02difference, vce(cluster stpr_id)
+
+Linear regression                                      Number of obs =    1222
+                                                       F(  1,   106) =    0.21
+                                                       Prob > F      =  0.6508
+                                                       R-squared     =  0.0005
+                                                       Root MSE      =  .10443
+
+                                  (Std. Err. adjusted for 107 clusters in stpr_id
+> )
+---------------------------------------------------------------------------------
+> -
+                 |               Robust
+ne02_output_ba~d |      Coef.   Std. Err.      t    P>|t|     [95% Conf. Interval
+> ]
+-----------------+---------------------------------------------------------------
+> -
+lnne02difference |  -.0105283   .0231923    -0.45   0.651    -.0565093    .035452
+> 6
+           _cons |  -.0060779   .0052455    -1.16   0.249    -.0164775    .004321
+> 7
+---------------------------------------------------------------------------------
+> -
+
+. 
+. reg ne02_output_predict lnne02difference, vce(cluster stpr_id) 
+
+Linear regression                                      Number of obs =    1222
+                                                       F(  1,   106) =    1.74
+                                                       Prob > F      =  0.1905
+                                                       R-squared     =  0.0054
+                                                       Root MSE      =  .07695
+
+                                  (Std. Err. adjusted for 107 clusters in stpr_id
+> )
+---------------------------------------------------------------------------------
+> -
+                 |               Robust
+ne02_output_pr~t |      Coef.   Std. Err.      t    P>|t|     [95% Conf. Interval
+> ]
+-----------------+---------------------------------------------------------------
+> -
+lnne02difference |  -.0249364   .0189285    -1.32   0.191    -.0624639    .012591
+> 1
+           _cons |  -.0000322   .0040828    -0.01   0.994    -.0081269    .008062
+> 4
+---------------------------------------------------------------------------------
+> -
+
+. 
+. reg ne02_percapinc_backward lnne02difference, vce(cluster stpr_id)
+
+Linear regression                                      Number of obs =    1222
+                                                       F(  1,   106) =    1.11
+                                                       Prob > F      =  0.2951
+                                                       R-squared     =  0.0031
+                                                       Root MSE      =  .08818
+
+                                  (Std. Err. adjusted for 107 clusters in stpr_id
+> )
+---------------------------------------------------------------------------------
+> -
+                 |               Robust
+ne02_percapinc~d |      Coef.   Std. Err.      t    P>|t|     [95% Conf. Interval
+> ]
+-----------------+---------------------------------------------------------------
+> -
+lnne02difference |   .0217568   .0206785     1.05   0.295    -.0192404     .06275
+> 4
+           _cons |  -.0057753   .0046341    -1.25   0.215    -.0149628    .003412
+> 2
+---------------------------------------------------------------------------------
+> -
+
+. 
+. reg ne02_percapinc_predict lnne02difference, vce(cluster stpr_id) 
+
+Linear regression                                      Number of obs =    1222
+                                                       F(  1,   106) =    3.76
+                                                       Prob > F      =  0.0552
+                                                       R-squared     =  0.0091
+                                                       Root MSE      =  .09233
+
+                                  (Std. Err. adjusted for 107 clusters in stpr_id
+> )
+---------------------------------------------------------------------------------
+> -
+                 |               Robust
+ne02_percapinc~t |      Coef.   Std. Err.      t    P>|t|     [95% Conf. Interval
+> ]
+-----------------+---------------------------------------------------------------
+> -
+lnne02difference |  -.0388612   .0200442    -1.94   0.055    -.0786007    .000878
+> 4
+           _cons |   .0063824   .0042317     1.51   0.134    -.0020074    .014772
+> 2
+---------------------------------------------------------------------------------
+> -
+
+. 
+. reg ne02_pop_backward lnne02difference, vce(cluster stpr_id)
+
+Linear regression                                      Number of obs =    1222
+                                                       F(  1,   106) =    1.26
+                                                       Prob > F      =  0.2639
+                                                       R-squared     =  0.0033
+                                                       Root MSE      =  .07089
+
+                                  (Std. Err. adjusted for 107 clusters in stpr_id
+> )
+---------------------------------------------------------------------------------
+> -
+                 |               Robust
+ne02_pop_backw~d |      Coef.   Std. Err.      t    P>|t|     [95% Conf. Interval
+> ]
+-----------------+---------------------------------------------------------------
+> -
+lnne02difference |   .0180632   .0160833     1.12   0.264    -.0138236      .0499
+> 5
+           _cons |  -.0074733   .0035379    -2.11   0.037    -.0144875   -.000459
+> 2
+---------------------------------------------------------------------------------
+> -
+
+. 
+. reg ne02_pop_predict lnne02difference, vce(cluster stpr_id) 
+
+Linear regression                                      Number of obs =    1222
+                                                       F(  1,   106) =    1.47
+                                                       Prob > F      =  0.2279
+                                                       R-squared     =  0.0025
+                                                       Root MSE      =  .06976
+
+                                  (Std. Err. adjusted for 107 clusters in stpr_id
+> )
+---------------------------------------------------------------------------------
+> -
+                 |               Robust
+ne02_pop_predict |      Coef.   Std. Err.      t    P>|t|     [95% Conf. Interval
+> ]
+-----------------+---------------------------------------------------------------
+> -
+lnne02difference |  -.0153338   .0126441    -1.21   0.228    -.0404021    .009734
+> 4
+           _cons |  -.0056951   .0031316    -1.82   0.072    -.0119038    .000513
+> 7
+---------------------------------------------------------------------------------
+> -
+
+. 
+. reg ne02_wagebill_backward lnne02difference, vce(cluster stpr_id)
+
+Linear regression                                      Number of obs =    1222
+                                                       F(  1,   106) =    4.33
+                                                       Prob > F      =  0.0398
+                                                       R-squared     =  0.0119
+                                                       Root MSE      =  .17512
+
+                                  (Std. Err. adjusted for 107 clusters in stpr_id
+> )
+---------------------------------------------------------------------------------
+> -
+                 |               Robust
+ne02_wagebill_~d |      Coef.   Std. Err.      t    P>|t|     [95% Conf. Interval
+> ]
+-----------------+---------------------------------------------------------------
+> -
+lnne02difference |   .0845799   .0406297     2.08   0.040     .0040276    .165132
+> 1
+           _cons |  -.0052526   .0094354    -0.56   0.579    -.0239591    .013453
+> 9
+---------------------------------------------------------------------------------
+> -
+
+. 
+. reg ne02_wagebill_predict lnne02difference, vce(cluster stpr_id) 
+
+Linear regression                                      Number of obs =    1222
+                                                       F(  1,   106) =    0.37
+                                                       Prob > F      =  0.5420
+                                                       R-squared     =  0.0010
+                                                       Root MSE      =  .18105
+
+                                  (Std. Err. adjusted for 107 clusters in stpr_id
+> )
+---------------------------------------------------------------------------------
+> -
+                 |               Robust
+ne02_wagebill_~t |      Coef.   Std. Err.      t    P>|t|     [95% Conf. Interval
+> ]
+-----------------+---------------------------------------------------------------
+> -
+lnne02difference |   .0254029    .041522     0.61   0.542    -.0569185    .107724
+> 3
+           _cons |  -.0050317    .009233    -0.54   0.587    -.0233371    .013273
+> 7
+---------------------------------------------------------------------------------
+> -
+
+. 
+. reg ne02_wageemp_backward lnne02difference, vce(cluster stpr_id)
+
+Linear regression                                      Number of obs =    1222
+                                                       F(  1,   106) =    8.08
+                                                       Prob > F      =  0.0054
+                                                       R-squared     =  0.0159
+                                                       Root MSE      =  .14073
+
+                                  (Std. Err. adjusted for 107 clusters in stpr_id
+> )
+---------------------------------------------------------------------------------
+> -
+                 |               Robust
+ne02_wageemp_b~d |      Coef.   Std. Err.      t    P>|t|     [95% Conf. Interval
+> ]
+-----------------+---------------------------------------------------------------
+> -
+lnne02difference |   .0787517   .0277106     2.84   0.005     .0238128    .133690
+> 7
+           _cons |  -.0083288   .0068522    -1.22   0.227    -.0219141    .005256
+> 4
+---------------------------------------------------------------------------------
+> -
+
+. 
+. reg ne02_wageemp_predict lnne02difference, vce(cluster stpr_id) 
+
+Linear regression                                      Number of obs =    1222
+                                                       F(  1,   106) =    0.12
+                                                       Prob > F      =  0.7282
+                                                       R-squared     =  0.0002
+                                                       Root MSE      =  .14843
+
+                                  (Std. Err. adjusted for 107 clusters in stpr_id
+> )
+---------------------------------------------------------------------------------
+> -
+                 |               Robust
+ne02_wageemp_p~t |      Coef.   Std. Err.      t    P>|t|     [95% Conf. Interval
+> ]
+-----------------+---------------------------------------------------------------
+> -
+lnne02difference |    .010071   .0289065     0.35   0.728    -.0472391     .06738
+> 1
+           _cons |  -.0033094   .0075343    -0.44   0.661     -.018247    .011628
+> 2
+---------------------------------------------------------------------------------
+> -
+
+. 
+. log close
+      name:  <unnamed>
+       log:  R:\users\borders_project\New_stata_files\Log_Files\ne02Clusterregres
+> sions.smcl
+  log type:  smcl
+ closed on:  22 Jul 2013, 14:13:24
+---------------------------------------------------------------------------------

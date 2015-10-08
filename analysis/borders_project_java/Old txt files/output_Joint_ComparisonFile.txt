@@ -1,0 +1,84 @@
+gt80_output_ba~d |      Coef.   Std. Err.      t    P>|t|     [95% Conf. Interval    ||    gt80_output_ba~d |      Coef.   Std. Err.      t    P>|t|     [95% Conf. Interval]
+lngt80difference |    .003858   .0253016     0.15   0.879     -.046305    .054020    ||    lngt80difference |    .003858   .0187024     0.21   0.837    -.0328346    .0405505
+gt80_output_pr~t |      Coef.   Std. Err.      t    P>|t|     [95% Conf. Interval    ||    gt80_output_pr~t |      Coef.   Std. Err.      t    P>|t|     [95% Conf. Interval]
+lngt80difference |  -.0221408   .0249266    -0.89   0.376    -.0715603    .027278    ||    lngt80difference |  -.0221408   .0194079    -1.14   0.254    -.0602175    .0159359
+gt81_output_ba~d |      Coef.   Std. Err.      t    P>|t|     [95% Conf. Interval    ||    gt81_output_ba~d |      Coef.   Std. Err.      t    P>|t|     [95% Conf. Interval
+lngt81difference |  -.0011639   .0110208    -0.11   0.916    -.0230137    .020685    ||    lngt81difference |  -.0011639   .0069862    -0.17   0.868    -.0148702    .012542
+gt81_output_pr~t |      Coef.   Std. Err.      t    P>|t|     [95% Conf. Interval    ||    gt81_output_pr~t |      Coef.   Std. Err.      t    P>|t|     [95% Conf. Interval
+lngt81difference |  -.0100164   .0082591    -1.21   0.228    -.0263908    .006358    ||    lngt81difference |  -.0100164    .007352    -1.36   0.173    -.0244405    .004407
+gt82_output_ba~d |      Coef.   Std. Err.      t    P>|t|     [95% Conf. Interval    ||    gt82_output_ba~d |      Coef.   Std. Err.      t    P>|t|     [95% Conf. Interval
+lngt82difference |  -.0102236   .0138957    -0.74   0.464    -.0377732     .01732    ||    lngt82difference |  -.0102236   .0092955    -1.10   0.272    -.0284605    .008013
+gt82_output_pr~t |      Coef.   Std. Err.      t    P>|t|     [95% Conf. Interval    ||    gt82_output_pr~t |      Coef.   Std. Err.      t    P>|t|     [95% Conf. Interval
+lngt82difference |  -.0033913   .0175174    -0.19   0.847    -.0381214    .031338    ||    lngt82difference |  -.0033913   .0101363    -0.33   0.738    -.0232779    .016495
+gt83_output_ba~d |      Coef.   Std. Err.      t    P>|t|     [95% Conf. Interval    ||    gt83_output_ba~d |      Coef.   Std. Err.      t    P>|t|     [95% Conf. Interval
+lngt83difference |  -.0109693   .0109385    -1.00   0.318     -.032656    .010717    ||    lngt83difference |  -.0109693   .0076405    -1.44   0.151    -.0259593    .004020
+gt83_output_pr~t |      Coef.   Std. Err.      t    P>|t|     [95% Conf. Interval    ||    gt83_output_pr~t |      Coef.   Std. Err.      t    P>|t|     [95% Conf. Interval
+lngt83difference |   .0156458   .0093449     1.67   0.097    -.0028814    .034172    ||    lngt83difference |   .0156458   .0076634     2.04   0.041     .0006108    .030680
+gt84_output_ba~d |      Coef.   Std. Err.      t    P>|t|     [95% Conf. Interval    ||    gt84_output_ba~d |      Coef.   Std. Err.      t    P>|t|     [95% Conf. Interval
+lngt84difference |  -.0141051   .0088464    -1.59   0.114    -.0316439    .003433    ||    lngt84difference |  -.0141051   .0061457    -2.30   0.022    -.0261625   -.002047
+gt84_output_pr~t |      Coef.   Std. Err.      t    P>|t|     [95% Conf. Interval    ||    gt84_output_pr~t |      Coef.   Std. Err.      t    P>|t|     [95% Conf. Interval
+lngt84difference |   .0083449   .0083454     1.00   0.320    -.0082006    .024890    ||    lngt84difference |   .0083449   .0063685     1.31   0.190    -.0041494    .020839
+gt85_output_ba~d |      Coef.   Std. Err.      t    P>|t|     [95% Conf. Interval    ||    gt85_output_ba~d |      Coef.   Std. Err.      t    P>|t|     [95% Conf. Interval
+lngt85difference |  -.0077931   .0079308    -0.98   0.328    -.0235167    .007930    ||    lngt85difference |  -.0077931   .0060686    -1.28   0.199    -.0196991    .004112
+gt85_output_pr~t |      Coef.   Std. Err.      t    P>|t|     [95% Conf. Interval    ||    gt85_output_pr~t |      Coef.   Std. Err.      t    P>|t|     [95% Conf. Interval
+lngt85difference |   .0142645    .008912     1.60   0.112    -.0034044    .031933    ||    lngt85difference |   .0142645    .006346     2.25   0.025     .0018143    .026714
+gt86_output_ba~d |      Coef.   Std. Err.      t    P>|t|     [95% Conf. Interval    ||    gt86_output_ba~d |      Coef.   Std. Err.      t    P>|t|     [95% Conf. Interval
+lngt86difference |  -.0199594   .0102589    -1.95   0.054    -.0402987    .000379    ||    lngt86difference |  -.0199594   .0078699    -2.54   0.011    -.0353995   -.004519
+gt86_output_pr~t |      Coef.   Std. Err.      t    P>|t|     [95% Conf. Interval    ||    gt86_output_pr~t |      Coef.   Std. Err.      t    P>|t|     [95% Conf. Interval
+lngt86difference |   .0419216   .0110021     3.81   0.000     .0201088    .063734    ||    lngt86difference |   .0419216   .0069624     6.02   0.000     .0282621    .055581
+ft75_output_ba~d |      Coef.   Std. Err.      t    P>|t|     [95% Conf. Interval    ||    ft75_output_ba~d |      Coef.   Std. Err.      t    P>|t|     [95% Conf. Interval
+lnft75difference |   -.007192   .0057769    -1.24   0.216    -.0186454    .004261    ||    lnft75difference |   -.007192   .0025666    -2.80   0.005    -.0122274   -.002156
+ft75_output_pr~t |      Coef.   Std. Err.      t    P>|t|     [95% Conf. Interval    ||    ft75_output_pr~t |      Coef.   Std. Err.      t    P>|t|     [95% Conf. Interval
+lnft75difference |  -.0045483   .0048325    -0.94   0.349    -.0141292    .005032    ||    lnft75difference |  -.0045483   .0023878    -1.90   0.057    -.0092329    .000136
+sb00_output_ba~d |      Coef.   Std. Err.      t    P>|t|     [95% Conf. Interval    ||    sb00_output_ba~d |      Coef.   Std. Err.      t    P>|t|     [95% Conf. Interval
+lnsb00difference |  -.0274192    .018685    -1.47   0.145    -.0644641    .009625    ||    lnsb00difference |  -.0274192   .0109744    -2.50   0.013    -.0489501   -.005888
+sb00_output_pr~t |      Coef.   Std. Err.      t    P>|t|     [95% Conf. Interval    ||    sb00_output_pr~t |      Coef.   Std. Err.      t    P>|t|     [95% Conf. Interval
+lnsb00difference |   .0074235   .0248973     0.30   0.766    -.0419377    .056784    ||    lnsb00difference |   .0074235   .0107283     0.69   0.489    -.0136244    .028471
+sb01_output_ba~d |      Coef.   Std. Err.      t    P>|t|     [95% Conf. Interval    ||    sb01_output_ba~d |      Coef.   Std. Err.      t    P>|t|     [95% Conf. Interval
+lnsb01difference |   .0159098   .0215006     0.74   0.461    -.0267173    .058536    ||    lnsb01difference |   .0159098   .0119326     1.33   0.183     -.007501    .039320
+sb01_output_pr~t |      Coef.   Std. Err.      t    P>|t|     [95% Conf. Interval    ||    sb01_output_pr~t |      Coef.   Std. Err.      t    P>|t|     [95% Conf. Interval
+lnsb01difference |  -.0105355   .0225464    -0.47   0.641    -.0552358    .034164    ||    lnsb01difference |  -.0105355   .0087424    -1.21   0.228    -.0276872    .006616
+sb02_output_ba~d |      Coef.   Std. Err.      t    P>|t|     [95% Conf. Interval    ||    sb02_output_ba~d |      Coef.   Std. Err.      t    P>|t|     [95% Conf. Interval
+lnsb02difference |   .0306653   .0209786     1.46   0.147    -.0109268    .072257    ||    lnsb02difference |   .0306653   .0098183     3.12   0.002     .0114028    .049927
+sb02_output_pr~t |      Coef.   Std. Err.      t    P>|t|     [95% Conf. Interval    ||    sb02_output_pr~t |      Coef.   Std. Err.      t    P>|t|     [95% Conf. Interval
+lnsb02difference |  -.0134964   .0145967    -0.92   0.357    -.0424358     .01544    ||    lnsb02difference |  -.0134964   .0072711    -1.86   0.064    -.0277617    .000768
+sb03_output_ba~d |      Coef.   Std. Err.      t    P>|t|     [95% Conf. Interval    ||    sb03_output_ba~d |      Coef.   Std. Err.      t    P>|t|     [95% Conf. Interval
+lnsb03difference |   .0219011     .02439     0.90   0.371    -.0264544    .070256    ||    lnsb03difference |   .0219011   .0095724     2.29   0.022     .0031209    .040681
+sb03_output_pr~t |      Coef.   Std. Err.      t    P>|t|     [95% Conf. Interval    ||    sb03_output_pr~t |      Coef.   Std. Err.      t    P>|t|     [95% Conf. Interval
+lnsb03difference |   -.004008   .0166076    -0.24   0.810    -.0369342    .028918    ||    lnsb03difference |   -.004008   .0095622    -0.42   0.675    -.0227682    .014752
+sb04_output_ba~d |      Coef.   Std. Err.      t    P>|t|     [95% Conf. Interval    ||    sb04_output_ba~d |      Coef.   Std. Err.      t    P>|t|     [95% Conf. Interval
+lnsb04difference |   .0258314    .029417     0.88   0.382    -.0324907    .084153    ||    lnsb04difference |   .0258314    .010491     2.46   0.014      .005249    .046413
+sb04_output_pr~t |      Coef.   Std. Err.      t    P>|t|     [95% Conf. Interval    ||    sb04_output_pr~t |      Coef.   Std. Err.      t    P>|t|     [95% Conf. Interval
+lnsb04difference |   .0165854   .0211315     0.78   0.434    -.0253098    .058480    ||    lnsb04difference |   .0165854   .0115073     1.44   0.150     -.005991    .039161
+ne99_output_ba~d |      Coef.   Std. Err.      t    P>|t|     [95% Conf. Interval    ||    ne99_output_ba~d |      Coef.   Std. Err.      t    P>|t|     [95% Conf. Interval
+lnne99difference |   .0133293   .0118505     1.12   0.263    -.0101654     .03682    ||    lnne99difference |   .0133293   .0094709     1.41   0.160    -.0052517    .031910
+ne99_output_pr~t |      Coef.   Std. Err.      t    P>|t|     [95% Conf. Interval    ||    ne99_output_pr~t |      Coef.   Std. Err.      t    P>|t|     [95% Conf. Interval
+lnne99difference |  -.0084911   .0164828    -0.52   0.608    -.0411699    .024187    ||    lnne99difference |  -.0084911   .0087754    -0.97   0.333    -.0257077    .008725
+ne02_output_ba~d |      Coef.   Std. Err.      t    P>|t|     [95% Conf. Interval    ||    ne02_output_ba~d |      Coef.   Std. Err.      t    P>|t|     [95% Conf. Interval
+lnne02difference |  -.0105283   .0231923    -0.45   0.651    -.0565093    .035452    ||    lnne02difference |  -.0105283   .0131628    -0.80   0.424    -.0363526    .015295
+ne02_output_pr~t |      Coef.   Std. Err.      t    P>|t|     [95% Conf. Interval    ||    ne02_output_pr~t |      Coef.   Std. Err.      t    P>|t|     [95% Conf. Interval
+lnne02difference |  -.0249364   .0189285    -1.32   0.191    -.0624639    .012591    ||    lnne02difference |  -.0249364   .0096993    -2.57   0.010    -.0439655   -.005907
+bh01_output_ba~d |      Coef.   Std. Err.      t    P>|t|     [95% Conf. Interval    ||    bh01_output_ba~d |      Coef.   Std. Err.      t    P>|t|     [95% Conf. Interval
+lnbh01difference |   .0506435   .0247691     2.04   0.043     .0015365    .099750    ||    lnbh01difference |   .0506435   .0135898     3.73   0.000     .0239815    .077305
+bh01_output_pr~t |      Coef.   Std. Err.      t    P>|t|     [95% Conf. Interval    ||    bh01_output_pr~t |      Coef.   Std. Err.      t    P>|t|     [95% Conf. Interval
+lnbh01difference |  -.0113627   .0237905    -0.48   0.634    -.0585296    .035804    ||    lnbh01difference |  -.0113627   .0100064    -1.14   0.256    -.0309943    .008268
+bh02_output_ba~d |      Coef.   Std. Err.      t    P>|t|     [95% Conf. Interval    ||    bh02_output_ba~d |      Coef.   Std. Err.      t    P>|t|     [95% Conf. Interval
+lnbh02difference |   .0229459   .0276468     0.83   0.408    -.0318665    .077758    ||    lnbh02difference |   .0229459   .0137668     1.67   0.096    -.0040633    .049955
+bh02_output_pr~t |      Coef.   Std. Err.      t    P>|t|     [95% Conf. Interval    ||    bh02_output_pr~t |      Coef.   Std. Err.      t    P>|t|     [95% Conf. Interval
+lnbh02difference |  -.0098848   .0166822    -0.59   0.555    -.0429589    .023189    ||    lnbh02difference |  -.0098848   .0101767    -0.97   0.332    -.0298506    .010081
+bh03_output_ba~d |      Coef.   Std. Err.      t    P>|t|     [95% Conf. Interval    ||    bh03_output_ba~d |      Coef.   Std. Err.      t    P>|t|     [95% Conf. Interval
+lnbh03difference |  -.0019377   .0326101    -0.06   0.953    -.0665905     .06271    ||    lnbh03difference |  -.0019377   .0139076    -0.14   0.889    -.0292231    .025347
+bh03_output_pr~t |      Coef.   Std. Err.      t    P>|t|     [95% Conf. Interval    ||    bh03_output_pr~t |      Coef.   Std. Err.      t    P>|t|     [95% Conf. Interval
+lnbh03difference |    .002814   .0210364     0.13   0.894    -.0388928    .044520    ||    lnbh03difference |    .002814   .0138639     0.20   0.839    -.0243857    .030013
+bh04_output_ba~d |      Coef.   Std. Err.      t    P>|t|     [95% Conf. Interval    ||    bh04_output_ba~d |      Coef.   Std. Err.      t    P>|t|     [95% Conf. Interval
+lnbh04difference |  -.0181607   .0236943    -0.77   0.445    -.0651369    .028815    ||    lnbh04difference |  -.0181607   .0132157    -1.37   0.170    -.0440887    .007767
+bh04_output_pr~t |      Coef.   Std. Err.      t    P>|t|     [95% Conf. Interval    ||    bh04_output_pr~t |      Coef.   Std. Err.      t    P>|t|     [95% Conf. Interval
+lnbh04difference |   .0074289   .0166781     0.45   0.657    -.0256371    .040494    ||    lnbh04difference |   .0074289    .014482     0.51   0.608    -.0209835    .035841
+frng04_output_ba~d |      Coef.   Std. Err.      t    P>|t|     [95% Conf. Interv    ||    frng04_output_ba~d |      Coef.   Std. Err.      t    P>|t|     [95% Conf. Interv
+lnfrng04difference |   .0351005   .0267558     1.31   0.192    -.0179455    .0881    ||    lnfrng04difference |   .0351005   .0122423     2.87   0.004     .0110823    .0591
+frng04_output_pr~t |      Coef.   Std. Err.      t    P>|t|     [95% Conf. Interv    ||    frng04_output_pr~t |      Coef.   Std. Err.      t    P>|t|     [95% Conf. Interv
+lnfrng04difference |   .0366731   .0214717     1.71   0.091    -.0058967    .0792    ||    lnfrng04difference |   .0366731   .0134105     2.73   0.006      .010363    .0629
+frsg04_output_ba~d |      Coef.   Std. Err.      t    P>|t|     [95% Conf. Interv    ||    frsg04_output_ba~d |      Coef.   Std. Err.      t    P>|t|     [95% Conf. Interv
+lnfrsg04difference |   .0307842   .0281679     1.09   0.277    -.0250615    .0866    ||    lnfrsg04difference |   .0307842   .0131273     2.35   0.019     .0050295    .0565
+frsg04_output_pr~t |      Coef.   Std. Err.      t    P>|t|     [95% Conf. Interv    ||    frsg04_output_pr~t |      Coef.   Std. Err.      t    P>|t|     [95% Conf. Interv
+lnfrsg04difference |   .0515336   .0247699     2.08   0.040     .0024249    .1006    ||    lnfrsg04difference |   .0515336   .0143323     3.60   0.000      .023415    .0796

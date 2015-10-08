@@ -1,0 +1,84 @@
+gt80_nfincome_~d |      Coef.   Std. Err.      t    P>|t|     [95% Conf. Interval]
+lngt80difference |   .1188683   .0223942     5.31   0.000     .0749328    .1628037
+gt80_nfincome_~t |      Coef.   Std. Err.      t    P>|t|     [95% Conf. Interval]
+lngt80difference |   .0353098   .0224346     1.57   0.116     -.008705    .0793246
+gt81_nfincome_~d |      Coef.   Std. Err.      t    P>|t|     [95% Conf. Interval
+lngt81difference |   .0437269   .0075552     5.79   0.000     .0289042    .058549
+gt81_nfincome_~t |      Coef.   Std. Err.      t    P>|t|     [95% Conf. Interval
+lngt81difference |   .0196672   .0076928     2.56   0.011     .0045745    .034759
+gt82_nfincome_~d |      Coef.   Std. Err.      t    P>|t|     [95% Conf. Interval
+lngt82difference |   .0348585   .0101418     3.44   0.001     .0149612    .054755
+gt82_nfincome_~t |      Coef.   Std. Err.      t    P>|t|     [95% Conf. Interval
+lngt82difference |   .0734981   .0101169     7.26   0.000     .0536495    .093346
+gt83_nfincome_~d |      Coef.   Std. Err.      t    P>|t|     [95% Conf. Interval
+lngt83difference |  -.0007876   .0078847    -0.10   0.920    -.0162568    .014681
+gt83_nfincome_~t |      Coef.   Std. Err.      t    P>|t|     [95% Conf. Interval
+lngt83difference |   .0650068   .0085012     7.65   0.000     .0483282    .081685
+gt84_nfincome_~d |      Coef.   Std. Err.      t    P>|t|     [95% Conf. Interval
+lngt84difference |  -.0053192   .0066643    -0.80   0.425     -.018394    .007755
+gt84_nfincome_~t |      Coef.   Std. Err.      t    P>|t|     [95% Conf. Interval
+lngt84difference |   .0484328   .0073224     6.61   0.000     .0340669    .062798
+gt85_nfincome_~d |      Coef.   Std. Err.      t    P>|t|     [95% Conf. Interval
+lngt85difference |   .0110295    .007016     1.57   0.116    -.0027353    .024794
+gt85_nfincome_~t |      Coef.   Std. Err.      t    P>|t|     [95% Conf. Interval
+lngt85difference |   .0375168   .0072702     5.16   0.000     .0232534    .051780
+gt86_nfincome_~d |      Coef.   Std. Err.      t    P>|t|     [95% Conf. Interval
+lngt86difference |  -.0043758   .0082714    -0.53   0.597    -.0206035    .011851
+gt86_nfincome_~t |      Coef.   Std. Err.      t    P>|t|     [95% Conf. Interval
+lngt86difference |   .0653548   .0075484     8.66   0.000     .0505455     .08016
+ft75_nfincome_~d |      Coef.   Std. Err.      t    P>|t|     [95% Conf. Interval
+lnft75difference |  -.0102304   .0029554    -3.46   0.001    -.0160287    -.00443
+ft75_nfincome_~t |      Coef.   Std. Err.      t    P>|t|     [95% Conf. Interval
+lnft75difference |  -.0038111   .0028942    -1.32   0.188    -.0094894    .001867
+sb00_nfincome_~d |      Coef.   Std. Err.      t    P>|t|     [95% Conf. Interval
+lnsb00difference |   -.023647   .0106515    -2.22   0.027    -.0445443   -.002749
+sb00_nfincome_~t |      Coef.   Std. Err.      t    P>|t|     [95% Conf. Interval
+lnsb00difference |  -.0522824   .0096551    -5.41   0.000    -.0712249   -.033339
+sb01_nfincome_~d |      Coef.   Std. Err.      t    P>|t|     [95% Conf. Interval
+lnsb01difference |  -.0111913   .0108436    -1.03   0.302    -.0324655    .010082
+sb01_nfincome_~t |      Coef.   Std. Err.      t    P>|t|     [95% Conf. Interval
+lnsb01difference |  -.0686882   .0104377    -6.58   0.000     -.089166   -.048210
+sb02_nfincome_~d |      Coef.   Std. Err.      t    P>|t|     [95% Conf. Interval
+lnsb02difference |  -.0025778   .0086814    -0.30   0.767      -.01961    .014454
+sb02_nfincome_~t |      Coef.   Std. Err.      t    P>|t|     [95% Conf. Interval
+lnsb02difference |  -.0715315   .0086198    -8.30   0.000    -.0884428   -.054620
+sb03_nfincome_~d |      Coef.   Std. Err.      t    P>|t|     [95% Conf. Interval
+lnsb03difference |   -.021829   .0085766    -2.55   0.011    -.0386555   -.005002
+sb03_nfincome_~t |      Coef.   Std. Err.      t    P>|t|     [95% Conf. Interval
+lnsb03difference |  -.0550858   .0094867    -5.81   0.000    -.0736979   -.036473
+sb04_nfincome_~d |      Coef.   Std. Err.      t    P>|t|     [95% Conf. Interval
+lnsb04difference |  -.0418253   .0091439    -4.57   0.000    -.0597648   -.023885
+sb04_nfincome_~t |      Coef.   Std. Err.      t    P>|t|     [95% Conf. Interval
+lnsb04difference |  -.0026857   .0095118    -0.28   0.778     -.021347    .015975
+ne99_nfincome_~d |      Coef.   Std. Err.      t    P>|t|     [95% Conf. Interval
+lnne99difference |   .0263272   .0087838     3.00   0.003     .0090941    .043560
+ne99_nfincome_~t |      Coef.   Std. Err.      t    P>|t|     [95% Conf. Interval
+lnne99difference |  -.0013093   .0076977    -0.17   0.865    -.0164114    .013792
+ne02_nfincome_~d |      Coef.   Std. Err.      t    P>|t|     [95% Conf. Interval
+lnne02difference |   .0045625   .0115952     0.39   0.694    -.0181861    .027311
+ne02_nfincome_~t |      Coef.   Std. Err.      t    P>|t|     [95% Conf. Interval
+lnne02difference |  -.0394061   .0117798    -3.35   0.001    -.0625171   -.016295
+bh01_nfincome_~d |      Coef.   Std. Err.      t    P>|t|     [95% Conf. Interval
+lnbh01difference |   .0720361   .0122436     5.88   0.000     .0480153    .096056
+bh01_nfincome_~t |      Coef.   Std. Err.      t    P>|t|     [95% Conf. Interval
+lnbh01difference |  -.0115011   .0121517    -0.95   0.344    -.0353416    .012339
+bh02_nfincome_~d |      Coef.   Std. Err.      t    P>|t|     [95% Conf. Interval
+lnbh02difference |   .0294507   .0121093     2.43   0.015     .0056934     .05320
+bh02_nfincome_~t |      Coef.   Std. Err.      t    P>|t|     [95% Conf. Interval
+lnbh02difference |  -.0132258   .0123817    -1.07   0.286    -.0375176    .011066
+bh03_nfincome_~d |      Coef.   Std. Err.      t    P>|t|     [95% Conf. Interval
+lnbh03difference |   .0454531   .0123991     3.67   0.000     .0211273    .069778
+bh03_nfincome_~t |      Coef.   Std. Err.      t    P>|t|     [95% Conf. Interval
+lnbh03difference |  -.0071726   .0139409    -0.51   0.607    -.0345234    .020178
+bh04_nfincome_~d |      Coef.   Std. Err.      t    P>|t|     [95% Conf. Interval
+lnbh04difference |  -.0177278   .0115861    -1.53   0.126    -.0404588    .005003
+bh04_nfincome_~t |      Coef.   Std. Err.      t    P>|t|     [95% Conf. Interval
+lnbh04difference |   .0227165   .0119444     1.90   0.057    -.0007174    .046150
+frng04_nfincome_~d |      Coef.   Std. Err.      t    P>|t|     [95% Conf. Interv
+lnfrng04difference |  -.0302829   .0107359    -2.82   0.005    -.0513457     -.00
+frng04_nfincome_~t |      Coef.   Std. Err.      t    P>|t|     [95% Conf. Interv
+lnfrng04difference |   .0102674   .0111058     0.92   0.355    -.0115212    .0320
+frsg04_nfincome_~d |      Coef.   Std. Err.      t    P>|t|     [95% Conf. Interv
+lnfrsg04difference |  -.0482824   .0114536    -4.22   0.000    -.0707534   -.0258
+frsg04_nfincome_~t |      Coef.   Std. Err.      t    P>|t|     [95% Conf. Interv
+lnfrsg04difference |   .0175323   .0118891     1.47   0.141    -.0057932    .0408
